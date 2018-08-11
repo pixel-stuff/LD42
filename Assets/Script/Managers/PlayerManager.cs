@@ -16,8 +16,10 @@ public class PlayerManager : MonoBehaviour {
 				Destroy(this.gameObject);
 		}
 	}
-	#endregion Singleton
+    #endregion Singleton
 
+
+    public PlayerComponent m_player;
 	// Use this for initialization
 	void Start () {
 		GameStateManager.onChangeStateEvent += handleChangeGameState;
