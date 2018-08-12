@@ -187,6 +187,12 @@ MonoBehaviour:
   GameOverSceneName: GameOverScene
   MinTurn: 2
   MaxTurn: 6
+  m_Type: 0
+  Spawn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   IsLastTurn:
     m_PersistentCalls:
       m_Calls: []
@@ -206,7 +212,7 @@ MonoBehaviour:
   CurrentTanValue: 0
   MaxTanValue: 100
   TanByTurn: 5
-  CurrentBreakDownValue: 100
+  CurrentBreakDownValue: 70
   GameOverSceneName: GameOverScene
   TanApply:
     m_PersistentCalls:
@@ -218,6 +224,7 @@ MonoBehaviour:
     m_TypeName: MyIntEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   TanText: {fileID: 0}
   BreakText: {fileID: 0}
+  m_modifier: []
 --- !u!212 &212747191270333188
 SpriteRenderer:
   m_ObjectHideFlags: 1
