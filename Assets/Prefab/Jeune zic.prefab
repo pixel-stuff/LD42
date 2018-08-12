@@ -111,7 +111,7 @@ MonoBehaviour:
   GameOverSceneName: GameOverScene
   MinTurn: 6
   MaxTurn: 10
-  m_Type: 0
+  m_Type: 4
   Spawn:
     m_PersistentCalls:
       m_Calls: []
