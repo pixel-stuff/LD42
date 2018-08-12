@@ -96,6 +96,7 @@ public class TouristSpawnManager : MonoBehaviour {
 
     void Generate()
     {
+        Debug.Log("Start generation");
         Shuffle(m_TouristPrefab);
         foreach (GameObject currentPrefab in m_TouristPrefab)
         {

@@ -60,7 +60,7 @@ public class GameTurnManager : MonoBehaviour {
         {
             AuthoriseGeneration = true;
             CurrentTimer = PlayerTurnDuration;
-            SetTurn(TurnState.PlayerTurn);
+            m_TurnState = TurnState.PlayerTurn;
         }
         else
         {
