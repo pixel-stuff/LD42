@@ -59,8 +59,8 @@ public class GameTurnManager : MonoBehaviour {
         if(newState == GameState.Playing)
         {
             AuthoriseGeneration = true;
-            CurrentTimer = GenerationTurnDuration;
-            SetTurn(TurnState.GenerationTurn);
+            CurrentTimer = PlayerTurnDuration;
+            SetTurn(TurnState.PlayerTurn);
         }
         else
         {

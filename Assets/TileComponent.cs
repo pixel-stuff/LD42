@@ -98,10 +98,10 @@ public class TileComponent : MonoBehaviour {
         {
             position = this.transform.position + new Vector3(SpriteSize.y * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().y, SpriteSize.x * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().x, 0);
         }
-        PlayerManager.m_instance.m_player.GoAtPosition(position, (m_rotation == 1) ? 90 : 0);
+        Debug.Log("FillPLayer");
         FillTouristTileComponent(PlayerManager.m_instance.m_player.GetComponent<touristSize>());
         PlayerManager.m_instance.m_player.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
-
+        PlayerManager.m_instance.m_player.GoAtPosition(position, (m_rotation == 1) ? 90 : 0);
     }
 
     public GameObject SpawnIfPossible(GameObject touristPrefab)
@@ -161,8 +161,8 @@ public class TileComponent : MonoBehaviour {
             touristSizesCopy[i] = new Vector2(touristSizes[i].x, touristSizes[i].y);
         }
             //touristSizes.Copy(touristSizesCopy);
-            do
-        {
+          //  do
+        //{
            // foreach (Vector2 startTile in selectedTile)
             //{
                 bool isValid = true;
@@ -185,14 +185,14 @@ public class TileComponent : MonoBehaviour {
                 }
             //}
             //we rotate the tourist
-            rotation++;
+            /*rotation++;
             for (int i = 0; i < touristSizesCopy.Length; i++)
             {
                 //int yCopy = touristSizes[i].y;
                 touristSizesCopy[i] = new Vector2(touristSizesCopy[i].y, -touristSizesCopy[i].x);
             }
 
-        } while (rotation < possibleRotation +1);
+        } while (rotation < possibleRotation +1);*/
 
         return -1;
     }

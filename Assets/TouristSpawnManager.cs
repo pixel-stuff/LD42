@@ -103,6 +103,7 @@ public class TouristSpawnManager : MonoBehaviour {
             {
                 touristSize currentSize = currentPrefab.GetComponent<touristSize>();
                 List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
+                Debug.Log("TileArryNear : " + tileArray.Count);
                 Shuffle(tileArray);
                 foreach (TileComponent currentTileComponent in tileArray)
                 {
