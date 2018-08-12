@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class touristSize : MonoBehaviour {
     public Vector2[] takenSize;
@@ -12,6 +13,12 @@ public class touristSize : MonoBehaviour {
 
     public string GameOverSceneName = "GameOverScene";
 
+    public int MinTurn = 2;
+    public int MaxTurn = 6;
+
+    int currentTurnLife = 0;
+
+    [SerializeField] UnityEvent IsLastTurn;
     public Vector2 GetTileOffset() {
             //calcul rectangle size
             int MaxX = -1;
@@ -53,12 +60,39 @@ public class touristSize : MonoBehaviour {
     }
 
 	void Start () {
-		
-	}
+        if (gameObject.GetComponent<PlayerComponent>() == null)
+        {
+            currentTurnLife = Random.Range(MinTurn, MaxTurn);
+
+            GameTurnManager.onChangeTurnEvent += handleChangeTurnEvent;
+        }
+    }
+
+    void handleChangeTurnEvent(TurnState state)
+    {
+        if (state == TurnState.GenerationTurn) //player turn is Over
+        {
+            currentTurnLife--;
+            if(currentTurnLife == 1)
+            {
+                IsLastTurn.Invoke();
+            }
+            if(currentTurnLife == 0)
+            {
+                Unspawn();
+                TouristSpawnManager.m_instance.m_SpawnedPrefab.Remove(gameObject);
+            }
+        }
+        else if (state == TurnState.PlayerTurn)
+        {
+        }
+    }
 
     public void Unspawn()
     {
         TileGenerator.ReleaseTile(ReservedTileIndex);
+        GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
+        Destroy(gameObject);
     }
 
     public void SetReservedTileIndex(List<Vector2> inIndex)
