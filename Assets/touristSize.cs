@@ -6,7 +6,7 @@ public class touristSize : MonoBehaviour {
     public Vector2[] takenSize;
 
     private List<Vector2> ReservedTileIndex;
-    private Vector2 tileOffset;
+    public Vector2 tileOffset;
     // Use this for initialization
     public Vector2 GetTileOffset() {
         if (tileOffset == Vector2.zero)
@@ -39,6 +39,18 @@ public class touristSize : MonoBehaviour {
         return tileOffset;
     }
 	
+    public void SetOrderInLayer(int x, int y)
+    {
+        SpriteRenderer[] sprites= gameObject.GetComponentsInChildren<SpriteRenderer>();
+
+        int orderInlayerValue = y * 100 + x;
+
+        for(int i =0; i< sprites.Length; i++)
+        {
+            sprites[i].sortingOrder = -orderInlayerValue;
+        }
+    }
+
 	// Update is called once per frame
 	void Update () {
 		

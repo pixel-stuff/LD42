@@ -81,6 +81,7 @@ public class TileComponent : MonoBehaviour {
         {
             playerSpawnPossibilityGO.transform.Rotate(0, 0, 90);
         }
+        //playerSpawnPossibility.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
     }
 
     void UnDisplaySpawnPossibility()
@@ -100,6 +101,7 @@ public class TileComponent : MonoBehaviour {
         }
         PlayerManager.m_instance.m_player.GoAtPosition(position, (m_rotation == 1) ? 90 : 0);
         FillTouristTileComponent(PlayerManager.m_instance.m_player.GetComponent<touristSize>());
+        PlayerManager.m_instance.m_player.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
 
     }
 
@@ -124,6 +126,7 @@ public class TileComponent : MonoBehaviour {
 
         GameObject touristSpawnGO = (GameObject)Instantiate(touristPrefab, position, Quaternion.identity);
         touristSpawnGO.transform.localEulerAngles = new Vector3(0, 0, (m_rotation == 1) ? 90 : 0);
+        touristPrefab.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
         return true;
     }
 
