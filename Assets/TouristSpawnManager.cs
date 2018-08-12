@@ -41,6 +41,7 @@ public class TouristSpawnManager : MonoBehaviour {
 
     public bool GenerateNextFrame = false;
 
+    public float WaitTimeGeneration = 0.5f;
     public List<GameObject> m_SpawnedPrefab;
 
     // Use this for initialization
@@ -50,8 +51,6 @@ public class TouristSpawnManager : MonoBehaviour {
 
     public void handleChangeTurnEvent(TurnState state)
     {
-        
-
         if (state == TurnState.GenerationTurn) //player turn is Over
         {
             Generate();
@@ -107,9 +106,10 @@ public class TouristSpawnManager : MonoBehaviour {
         }
 	}
 
-    void Generate()
+    IEnumerator GenerateCoroutine(float Count)
     {
-        Debug.Log("Start generation");
+        yield return new WaitForSeconds(Count);
+
         Shuffle(m_TouristPrefab);
         foreach (GameObject currentPrefab in m_TouristPrefab)
         {
@@ -117,7 +117,7 @@ public class TouristSpawnManager : MonoBehaviour {
             {
                 bool CanGenerate = true;
                 touristSize currentSize = currentPrefab.GetComponent<touristSize>();
-                
+
                 int currentNumberOfThisType = 0;
                 //check if we can selectThisOne
                 for (int i = 0; i < m_SpawnedPrefab.Count; i++)
@@ -133,11 +133,11 @@ public class TouristSpawnManager : MonoBehaviour {
                     }
                 }
 
-                foreach(TouristSpawningRule rule in m_TouristSpawningRules)
+                foreach (TouristSpawningRule rule in m_TouristSpawningRules)
                 {
-                    if(rule.touristeType == currentSize.m_Type)
+                    if (rule.touristeType == currentSize.m_Type)
                     {
-                        if(currentNumberOfThisType >= rule.MaxOccurence)
+                        if (currentNumberOfThisType >= rule.MaxOccurence)
                         {
                             CanGenerate = false;
                         }
@@ -157,7 +157,7 @@ public class TouristSpawnManager : MonoBehaviour {
                         if (generatedGameObject != null)
                         {
                             m_SpawnedPrefab.Add(generatedGameObject);
-                            return;
+                            yield break;
                         }
                     }
 
@@ -170,12 +170,21 @@ public class TouristSpawnManager : MonoBehaviour {
                         if (generatedGameObject != null)
                         {
                             m_SpawnedPrefab.Add(generatedGameObject);
-                            return;
+                            yield break;
                         }
                     }
                 }
             }
         }
+
+        yield break;
+    }
+
+        void Generate()
+    {
+        Debug.Log("Start generation");
+        StartCoroutine("GenerateCoroutine", WaitTimeGeneration);
+ 
     }
 
     private static System.Random rng = new System.Random();

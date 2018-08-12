@@ -22,6 +22,7 @@ public class UIGameOverManager : MonoBehaviour {
 	}
 	
 	public void ReturnToLevelScene(){
+        Debug.Log("AZER");
 		GameStateManager.setGameState (GameState.Playing);
         SceneManager.LoadSceneAsync("LevelScene");
 	}
