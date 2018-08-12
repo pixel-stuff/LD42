@@ -82,7 +82,6 @@ public class GameTurnManager : MonoBehaviour {
                 {
                     SetTurn(TurnState.PlayerTurn);
                     CurrentTimer = PlayerTurnDuration;
-                    TouristSpawnManager.m_instance.Generate = true;
                 }
             }
         }

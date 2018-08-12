@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+[System.Serializable]
+public class MyIntEvent : UnityEvent<int>
+{
+}
+
 
 public class PlayerComponent : MonoBehaviour {
 
@@ -17,8 +24,11 @@ public class PlayerComponent : MonoBehaviour {
     public string GameOverSceneName = "GameOverScene";
     bool playerMove = false;
 
-    [SerializeField] UnityEvent TanApply;
-    [SerializeField] UnityEvent BreakDownApply;
+    [SerializeField] MyIntEvent TanApply;
+    [SerializeField] MyIntEvent BreakDownApply;
+
+    public Text TanText;
+    public Text BreakText;
 
     public void GoAtPosition(Vector3 position, int rotation)
     {
@@ -57,8 +67,9 @@ public class PlayerComponent : MonoBehaviour {
     {
         Debug.Log("ApplyTan:");
         CurrentTanValue += TanByTurn;
-        TanApply.Invoke();
-        if(CurrentTanValue >= MaxTanValue)
+        TanApply.Invoke(CurrentTanValue);
+        TanText.text = "TAN : " + CurrentTanValue;
+        if (CurrentTanValue >= MaxTanValue)
         {
             //gameOver
             GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
@@ -92,8 +103,9 @@ public class PlayerComponent : MonoBehaviour {
         if (touristSize.BreakDownValue > 0)
         {
             CurrentBreakDownValue -= touristSize.BreakDownValue;
-            BreakDownApply.Invoke();
-        if (CurrentBreakDownValue <= 0)
+            BreakDownApply.Invoke(CurrentBreakDownValue);
+            BreakText.text = "Break : " + CurrentBreakDownValue;
+            if (CurrentBreakDownValue <= 0)
             {
                 //gameOver
                 GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;

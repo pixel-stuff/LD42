@@ -37,6 +37,23 @@ public class TouristSpawnManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         GameStateManager.onChangeStateEvent += handleGameStateChanged;
+        GameTurnManager.onChangeTurnEvent += handleChangeTurnEvent;
+    }
+
+    void handleChangeTurnEvent(TurnState state)
+    {
+        foreach (GameObject currentTouristGO in m_SpawnedPrefab)
+        {
+            currentTouristGO.GetComponent<touristSize>().handleChangeTurnEvent(state);
+        }
+
+        if (state == TurnState.GenerationTurn) //player turn is Over
+        {
+            Generate = true;
+        }
+        else if (state == TurnState.PlayerTurn)
+        {
+        }
     }
 
     void handleGameStateChanged(GameState newState)
@@ -63,29 +80,32 @@ public class TouristSpawnManager : MonoBehaviour {
             Shuffle(m_TouristPrefab);
             foreach(GameObject currentPrefab in m_TouristPrefab)
             {
-                touristSize currentSize = currentPrefab.GetComponent<touristSize>();
-                List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
-                Shuffle(tileArray);
-                foreach (TileComponent currentTileComponent in tileArray)
+                if (currentPrefab != null)
                 {
-                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
-                    if (generatedGameObject != null)
+                    touristSize currentSize = currentPrefab.GetComponent<touristSize>();
+                    List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
+                    Shuffle(tileArray);
+                    foreach (TileComponent currentTileComponent in tileArray)
                     {
-                        m_SpawnedPrefab.Add(generatedGameObject);
-                        return;
+                        GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                        if (generatedGameObject != null)
+                        {
+                            m_SpawnedPrefab.Add(generatedGameObject);
+                            return;
+                        }
                     }
-                }
 
-                List<TileComponent> allTileArray = TileGenerator.GetFreeTileComponent();
-                Shuffle(allTileArray);
+                    List<TileComponent> allTileArray = TileGenerator.GetFreeTileComponent();
+                    Shuffle(allTileArray);
 
-                foreach (TileComponent currentTileComponent in allTileArray)
-                {
-                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
-                    if (generatedGameObject != null)
+                    foreach (TileComponent currentTileComponent in allTileArray)
                     {
-                        m_SpawnedPrefab.Add(generatedGameObject);
-                        return;
+                        GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                        if (generatedGameObject != null)
+                        {
+                            m_SpawnedPrefab.Add(generatedGameObject);
+                            return;
+                        }
                     }
                 }
             }
