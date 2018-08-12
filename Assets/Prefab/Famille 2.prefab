@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4498598634637618}
   - component: {fileID: 114520167879297792}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Famille 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,8 +88,14 @@ MonoBehaviour:
   - {x: 1, y: 1}
   - {x: 2, y: 0}
   - {x: 2, y: 1}
-  ReservedTileIndex: []
-  tileOffset: {x: 0, y: 0}
+  ReservedTileIndex:
+  - {x: 2, y: 6}
+  - {x: 2, y: 7}
+  - {x: 3, y: 6}
+  - {x: 3, y: 7}
+  - {x: 4, y: 6}
+  - {x: 4, y: 7}
+  tileOffset: {x: 1, y: 0.5}
   BreakDownValue: 0
   GameOverSceneName: GameOverScene
 --- !u!212 &212749332529860956
@@ -126,7 +132,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -602
   m_Sprite: {fileID: 21300000, guid: fed1169a4230c3d4a9460a85d26a4d24, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
