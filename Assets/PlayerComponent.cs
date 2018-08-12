@@ -7,10 +7,14 @@ public class PlayerComponent : MonoBehaviour {
 
     public void GoAtPosition(Vector3 position, int rotation)
     {
-        gameObject.SetActive(true);
-        transform.position = position;
-        Debug.Log("Rotation " + rotation);
-        transform.localEulerAngles = new Vector3(0, 0, rotation);
+        if (position != transform.position || transform.localEulerAngles.z != rotation) //if player move
+        {
+            gameObject.SetActive(true);
+            transform.position = position;
+            Debug.Log("Rotation " + rotation);
+            transform.localEulerAngles = new Vector3(0, 0, rotation);
+            //set move to gamemanager
+        }
     }
 	// Use this for initialization
 	void Start () {

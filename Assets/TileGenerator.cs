@@ -59,6 +59,19 @@ public class TileGenerator : MonoBehaviour {
         return returnList;
     }
 
+    public static List<Vector2> GetFreeTileForPlayer()
+    {
+        List<Vector2> returnList = new List<Vector2>();
+        foreach (TileComponent currentTile in s_TileComponent)
+        {
+            if (!currentTile.IsBusy || currentTile.IsBusyByPlayer)
+            {
+                returnList.Add(currentTile.m_tileIndex);
+            }
+        }
+        return returnList;
+    }
+
     public static void ReleaseTile(List<Vector2> indexArray)
     {
         foreach (TileComponent currentTile in s_TileComponent)

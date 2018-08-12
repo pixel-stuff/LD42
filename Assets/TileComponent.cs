@@ -41,7 +41,7 @@ public class TileComponent : MonoBehaviour {
 
         if(m_IsOver)
         {
-            m_rotation = TileMatching(TileGenerator.GetFreeTile(), playerSpawnPossibility.GetComponent<touristSize>().takenSize,1);
+            m_rotation = TileMatching(TileGenerator.GetFreeTileForPlayer(), playerSpawnPossibility.GetComponent<touristSize>().takenSize,1);
             if (m_rotation != -1 && !m_IsSpawnPossible)
             {
                 DisplaySpawnPossibility();
