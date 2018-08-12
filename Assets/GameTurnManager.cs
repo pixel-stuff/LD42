@@ -89,6 +89,12 @@ public class GameTurnManager : MonoBehaviour {
         }
     }
 
+    public void SkipPlayerTurn()
+    {
+        SetTurn(TurnState.GenerationTurn);
+        CurrentTimer = GenerationTurnDuration;
+    }
+
     public bool IsPlayerTurn()
     {
         return m_TurnState == TurnState.PlayerTurn;
