@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class TouristSpawningRule
+{
+    public TouristeType touristeType = TouristeType.Generic;
+    public int MaxOccurence = 10;
+}
+
 public class TouristSpawnManager : MonoBehaviour {
 
     #region Singleton
@@ -26,6 +33,8 @@ public class TouristSpawnManager : MonoBehaviour {
 
 
     public List<GameObject> m_TouristPrefab;
+
+    public List<TouristSpawningRule> m_TouristSpawningRules;
 
     private int minimumNearPlayer = 1;
     public int maxNearPlayer = 3;
@@ -102,30 +111,57 @@ public class TouristSpawnManager : MonoBehaviour {
         {
             if (currentPrefab != null)
             {
+                bool CanGenerate = true;
                 touristSize currentSize = currentPrefab.GetComponent<touristSize>();
-                List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
-                Debug.Log("TileArryNear : " + tileArray.Count);
-                Shuffle(tileArray);
-                foreach (TileComponent currentTileComponent in tileArray)
+                int currentNumberOfThisType = 0;
+                //check if we can selectThisOne
+                for (int i = 0; i < m_SpawnedPrefab.Count; i++)
                 {
-                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
-                    if (generatedGameObject != null)
+                    if (m_SpawnedPrefab[i] != null && m_SpawnedPrefab[i].GetComponent<touristSize>().m_Type == currentSize.m_Type)
                     {
-                        m_SpawnedPrefab.Add(generatedGameObject);
-                        return;
+                        currentNumberOfThisType++;
                     }
                 }
 
-                List<TileComponent> allTileArray = TileGenerator.GetFreeTileComponent();
-                Shuffle(allTileArray);
-
-                foreach (TileComponent currentTileComponent in allTileArray)
+                foreach(TouristSpawningRule rule in m_TouristSpawningRules)
                 {
-                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
-                    if (generatedGameObject != null)
+                    if(rule.touristeType == currentSize.m_Type)
                     {
-                        m_SpawnedPrefab.Add(generatedGameObject);
-                        return;
+                        if(currentNumberOfThisType >= rule.MaxOccurence)
+                        {
+                            CanGenerate = false;
+                        }
+                        break;
+                    }
+                }
+                //
+
+                if (CanGenerate)
+                {
+                    List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
+                    Debug.Log("TileArryNear : " + tileArray.Count);
+                    Shuffle(tileArray);
+                    foreach (TileComponent currentTileComponent in tileArray)
+                    {
+                        GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                        if (generatedGameObject != null)
+                        {
+                            m_SpawnedPrefab.Add(generatedGameObject);
+                            return;
+                        }
+                    }
+
+                    List<TileComponent> allTileArray = TileGenerator.GetFreeTileComponent();
+                    Shuffle(allTileArray);
+
+                    foreach (TileComponent currentTileComponent in allTileArray)
+                    {
+                        GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                        if (generatedGameObject != null)
+                        {
+                            m_SpawnedPrefab.Add(generatedGameObject);
+                            return;
+                        }
                     }
                 }
             }
