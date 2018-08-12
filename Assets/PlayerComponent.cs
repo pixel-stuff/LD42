@@ -50,10 +50,7 @@ public class PlayerComponent : MonoBehaviour {
             transform.localEulerAngles = new Vector3(0, 0, rotation);
             //set move to gamemanager
         }
-        else
-        {
-            GameTurnManager.m_instance.SkipPlayerTurn();
-        }
+        GameTurnManager.m_instance.SkipPlayerTurn();
     }
 	
     public void handleChangeTurnEvent(TurnState state)
@@ -90,14 +87,17 @@ public class PlayerComponent : MonoBehaviour {
         List<Vector2> nearPlayerTourist = TileGenerator.GetTouristTileNearPlayer(1);
         foreach(GameObject currentTouriste in TouristSpawnManager.m_instance.m_SpawnedPrefab)
         {
-            touristSize currentTouristSize = currentTouriste.GetComponent<touristSize>();
-            List<Vector2> touristeTiles = currentTouristSize.ReservedTileIndex;
-            foreach(Vector2 currentTileNearPlayerTourist in nearPlayerTourist)
+            if (currentTouriste != null)
             {
-                if(touristeTiles.Contains(currentTileNearPlayerTourist))
+                touristSize currentTouristSize = currentTouriste.GetComponent<touristSize>();
+                List<Vector2> touristeTiles = currentTouristSize.ReservedTileIndex;
+                foreach (Vector2 currentTileNearPlayerTourist in nearPlayerTourist)
                 {
-                    ApplyTouristDebuf(currentTouristSize);
-                    break;
+                    if (touristeTiles.Contains(currentTileNearPlayerTourist))
+                    {
+                        ApplyTouristDebuf(currentTouristSize);
+                        break;
+                    }
                 }
             }
         }
