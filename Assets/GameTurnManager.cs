@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum TurnState
 {
@@ -32,9 +33,9 @@ public class GameTurnManager : MonoBehaviour {
     #endregion Singleton
 
 
-    public static TurnState m_TurnState = TurnState.PlayerTurn; 
+    public static TurnState m_TurnState = TurnState.PlayerTurn;
     //public static Action<TurnState> onChangeTurnEvent;
-
+    
 
     public float PlayerTurnDuration = 3f;
 
@@ -45,7 +46,8 @@ public class GameTurnManager : MonoBehaviour {
 
     private float CurrentTimer = 0f;
 
-
+    [SerializeField] UnityEvent IsPLayerTurn;
+    [SerializeField] UnityEvent IsGenerationTurn;
     // Use this for initialization
     void Start () {
         GameStateManager.onChangeStateEvent += handleGameStateChanged;
@@ -67,7 +69,7 @@ public class GameTurnManager : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
-        if (AuthoriseGeneration && PlayerManager.m_instance.m_player.isActiveAndEnabled)
+        if (AuthoriseGeneration && PlayerManager.m_instance.m_player != null && PlayerManager.m_instance.m_player.isActiveAndEnabled)
         {
             CurrentTimer -= Time.deltaTime;
 
@@ -98,6 +100,14 @@ public class GameTurnManager : MonoBehaviour {
         {
             Debug.Log("TurnChanged: " + state);
             m_TurnState = state;
+            if(state == TurnState.PlayerTurn)
+            {
+                IsPLayerTurn.Invoke();
+            }
+            else if(state == TurnState.GenerationTurn)
+            {
+                IsGenerationTurn.Invoke();
+            }
             PlayerManager.m_instance.m_player.GetComponent<PlayerComponent>().handleChangeTurnEvent(state);
             TouristSpawnManager.m_instance.handleChangeTurnEvent(state);
         }

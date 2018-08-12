@@ -53,9 +53,9 @@ public class TouristSpawnManager : MonoBehaviour {
                 m_SpawnedPrefab[i].GetComponent<touristSize>().handleChangeTurnEvent(state);
             }  
         }
-        for (int j = 0; j < m_SpawnedPrefab.Count; j++)
+        for (int j = 0; j < nullIndexes.Count; j++)
         {
-            m_SpawnedPrefab.RemoveAt(j);
+            m_SpawnedPrefab.RemoveAt(nullIndexes[j]);
         }
 
         if (state == TurnState.GenerationTurn) //player turn is Over

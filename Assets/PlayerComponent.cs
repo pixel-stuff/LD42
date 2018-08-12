@@ -75,7 +75,7 @@ public class PlayerComponent : MonoBehaviour {
     void ApplyNearTourist()
     {
         List<Vector2> nearPlayerTourist = TileGenerator.GetTouristTileNearPlayer(1);
-
+        Debug.Log("ApplyNearTourist to near player tourist " + nearPlayerTourist.Count);
         foreach(GameObject currentTouriste in TouristSpawnManager.m_instance.m_SpawnedPrefab)
         {
             touristSize currentTouristSize = currentTouriste.GetComponent<touristSize>();
