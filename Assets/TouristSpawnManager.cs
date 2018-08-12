@@ -118,7 +118,7 @@ public class TouristSpawnManager : MonoBehaviour {
                 //check if we can selectThisOne
                 for (int i = 0; i < m_SpawnedPrefab.Count; i++)
                 {
-                    if (m_SpawnedPrefab[i].GetComponent<touristSize>().destroy)
+                    if (m_SpawnedPrefab[i] != null && m_SpawnedPrefab[i].GetComponent<touristSize>().destroy)
                     {
                         Destroy(m_SpawnedPrefab[i]);
                         continue;
