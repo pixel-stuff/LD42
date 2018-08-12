@@ -13,6 +13,7 @@ public class TileGenerator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        s_TileComponent.Clear();
         Sprite sprite = m_prefabTile.GetComponent<SpriteRenderer>().sprite;
         Vector2 SpriteSize = sprite.bounds.size;
         for(int x = 0; x< m_xSize; x++)
@@ -41,7 +42,6 @@ public class TileGenerator : MonoBehaviour {
             }
             else
             {
-                Debug.Log("reserved tile : " + currentTile.m_tileIndex);
             }
         }
         return returnList;
@@ -112,6 +112,22 @@ public class TileGenerator : MonoBehaviour {
         return GetFreeTileComponent(indexList);
     }
 
+    public static List<Vector2> GetTouristTileNearPlayer(int max)
+    {
+        List<Vector2> indexList = new List<Vector2>();
+        foreach (TileComponent currentTile in GetTilePlayer())
+        {
+            for (int maxIndexX = -max; maxIndexX < max + 1; maxIndexX++)
+            {
+                for (int maxIndexY = -max; maxIndexY < max + 1; maxIndexY++)
+                {
+                    indexList.Add(currentTile.m_tileIndex + new Vector2(maxIndexX, maxIndexY));
+                }
+            }
+        }
+        return GetTouristTileIndex(indexList);
+    }
+
     public static List<TileComponent> GetTilePlayer()
     {
         List<TileComponent> returnList = new List<TileComponent>();
@@ -134,6 +150,20 @@ public class TileGenerator : MonoBehaviour {
             if (index.Contains(currentTile.m_tileIndex) && !currentTile.IsBusy)
             {
                 returnList.Add(currentTile);
+            }
+        }
+
+        return returnList;
+    }
+
+    public static List<Vector2> GetTouristTileIndex(List<Vector2> index)
+    {
+        List<Vector2> returnList = new List<Vector2>();
+        foreach (TileComponent currentTile in s_TileComponent)
+        {
+            if (index.Contains(currentTile.m_tileIndex) && currentTile.IsBusy && !currentTile.IsBusyByPlayer)
+            {
+                returnList.Add(currentTile.m_tileIndex);
             }
         }
 

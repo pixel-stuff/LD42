@@ -33,6 +33,10 @@ public class PlayerManager : MonoBehaviour {
 
     void handleChangeGameState(GameState newState){
 		Debug.Log ("PLAYER SEE THE NEW STATE : " + newState);
+        if(newState == GameState.Playing)
+        {
+            m_player=gameObject.GetComponentInParent<PlayerComponent>();
+        }
 	}
 
 	#region Intéraction

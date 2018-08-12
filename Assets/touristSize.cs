@@ -5,8 +5,12 @@ using UnityEngine;
 public class touristSize : MonoBehaviour {
     public Vector2[] takenSize;
 
-    private List<Vector2> ReservedTileIndex;
+    public List<Vector2> ReservedTileIndex;
     public Vector2 tileOffset;
+
+    public int BreakDownValue;
+
+    public string GameOverSceneName = "GameOverScene";
 
     public Vector2 GetTileOffset() {
             //calcul rectangle size
@@ -59,7 +63,6 @@ public class touristSize : MonoBehaviour {
 
     public void SetReservedTileIndex(List<Vector2> inIndex)
     {
-        Debug.Log("SetReservedTileIndex");
         TileGenerator.BusyTiles(inIndex, gameObject.GetComponent<PlayerComponent>() != null);
         ReservedTileIndex = inIndex;
     }

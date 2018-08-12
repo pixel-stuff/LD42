@@ -31,7 +31,6 @@ public class TileComponent : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButton(0) && m_IsSpawnPossible && !IsBusyByPlayer)
         {
-            Debug.Log("SPAWN");
             if (PlayerManager.m_instance.m_player.isActiveAndEnabled)
             {
                 PlayerManager.m_instance.m_player.GetComponent<touristSize>().Unspawn();
@@ -39,7 +38,7 @@ public class TileComponent : MonoBehaviour {
             SpawnPlayer();
         }
 
-        if(m_IsOver && GameTurnManager.m_instance.IsPlayerTurn)
+        if(m_IsOver && GameTurnManager.m_instance.IsPlayerTurn())
         {
             m_rotation = TileMatching(TileGenerator.GetFreeTileForPlayer(), playerSpawnPossibility.GetComponent<touristSize>().takenSize,1);
             if (m_rotation != -1 && !m_IsSpawnPossible)
@@ -105,15 +104,14 @@ public class TileComponent : MonoBehaviour {
 
     }
 
-    public bool SpawnIfPossible(GameObject touristPrefab)
+    public GameObject SpawnIfPossible(GameObject touristPrefab)
     {
         touristSize tourist = touristPrefab.GetComponent<touristSize>();
         int rotation = TileMatching(TileGenerator.GetFreeTile(), tourist.takenSize,0);
         if(rotation == -1)
         {
-            return false;
+            return null;
         }
-        Debug.Log(m_tileIndex);
         FillTouristTileComponent(tourist);
         Sprite sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         Vector2 SpriteSize = sprite.bounds.size;
@@ -127,7 +125,7 @@ public class TileComponent : MonoBehaviour {
         GameObject touristSpawnGO = (GameObject)Instantiate(touristPrefab, position, Quaternion.identity);
         touristSpawnGO.transform.localEulerAngles = new Vector3(0, 0, (m_rotation == 1) ? 90 : 0);
         touristPrefab.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
-        return true;
+        return touristSpawnGO;
     }
 
     void FillTouristTileComponent(touristSize tourist)
@@ -143,7 +141,6 @@ public class TileComponent : MonoBehaviour {
         foreach (Vector2 currentTouristSize in touristSizesCopy)
         {
             returnList.Add(m_tileIndex + currentTouristSize);
-            Debug.Log("Reserved tile " + (m_tileIndex + currentTouristSize));
         }
 
         tourist.SetReservedTileIndex(returnList);
@@ -172,10 +169,8 @@ public class TileComponent : MonoBehaviour {
                 foreach (Vector2 currentTouristSize in touristSizesCopy)
                 {
                     Vector2 possibleTile = m_tileIndex + currentTouristSize;
-                Debug.Log("Test " + possibleTile);
                     if (selectedTile.Contains(possibleTile))
                     {
-                    Debug.Log("Tile OK for" + possibleTile);
                     //found
                 }
                     else

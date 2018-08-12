@@ -32,13 +32,31 @@ public class TouristSpawnManager : MonoBehaviour {
 
     public bool Generate = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    public List<GameObject> m_SpawnedPrefab;
+
+    // Use this for initialization
+    void Start () {
+        GameStateManager.onChangeStateEvent += handleGameStateChanged;
+    }
+
+    void handleGameStateChanged(GameState newState)
+    {
+        if (newState == GameState.Playing)
+        {
+
+        }
+        else
+        {
+           foreach(GameObject currentTouristGO in m_SpawnedPrefab)
+            {
+                currentTouristGO.GetComponent<touristSize>().Unspawn();
+            }
+            m_SpawnedPrefab.Clear();
+        }
+    }
+
+        // Update is called once per frame
+        void Update () {
         if(Generate)
         {
             Generate = false;
@@ -47,12 +65,13 @@ public class TouristSpawnManager : MonoBehaviour {
             {
                 touristSize currentSize = currentPrefab.GetComponent<touristSize>();
                 List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
-                Debug.Log(tileArray.Count);
                 Shuffle(tileArray);
                 foreach (TileComponent currentTileComponent in tileArray)
                 {
-                    if(currentTileComponent.SpawnIfPossible(currentPrefab))
+                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                    if (generatedGameObject != null)
                     {
+                        m_SpawnedPrefab.Add(generatedGameObject);
                         return;
                     }
                 }
@@ -62,17 +81,16 @@ public class TouristSpawnManager : MonoBehaviour {
 
                 foreach (TileComponent currentTileComponent in allTileArray)
                 {
-                    if (currentTileComponent.SpawnIfPossible(currentPrefab))
+                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                    if (generatedGameObject != null)
                     {
+                        m_SpawnedPrefab.Add(generatedGameObject);
                         return;
                     }
                 }
             }
         }
-		
 	}
-
-
 
     private static System.Random rng = new System.Random();
 

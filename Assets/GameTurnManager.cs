@@ -1,6 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+public enum TurnState
+{
+    PlayerTurn,
+    GenerationTurn
+}
 
 public class GameTurnManager : MonoBehaviour {
 
@@ -24,36 +31,77 @@ public class GameTurnManager : MonoBehaviour {
     }
     #endregion Singleton
 
+
+    public static TurnState m_TurnState = TurnState.PlayerTurn; 
+    public static Action<TurnState> onChangeTurnEvent;
+
+
     public float PlayerTurnDuration = 3f;
 
     public float GenerationTurnDuration = 1f;
 
-    public bool IsPlayerTurn = true;
+    //public bool IsPlayerTurn = true;
+    public bool AuthoriseGeneration = true;
 
     private float CurrentTimer = 0f;
 
 
     // Use this for initialization
     void Start () {
+        GameStateManager.onChangeStateEvent += handleGameStateChanged;
         CurrentTimer = PlayerTurnDuration;
     }
 	
-	// Update is called once per frame
-	void Update () {
-        CurrentTimer -= Time.deltaTime;
-
-        if (CurrentTimer <= 0.0f)
+    void handleGameStateChanged(GameState newState)
+    {
+        if(newState == GameState.Playing)
         {
-            if(IsPlayerTurn)
+            AuthoriseGeneration = true;
+            CurrentTimer = PlayerTurnDuration;
+            SetTurn(TurnState.PlayerTurn);
+        }
+        else
+        {
+            AuthoriseGeneration = false;
+        }
+    }
+    // Update is called once per frame
+    void Update () {
+        if (AuthoriseGeneration)
+        {
+            CurrentTimer -= Time.deltaTime;
+
+            if (CurrentTimer <= 0.0f)
             {
-                IsPlayerTurn = false;
-                CurrentTimer = GenerationTurnDuration;
+                if (IsPlayerTurn())
+                {
+                    SetTurn(TurnState.GenerationTurn);
+                    CurrentTimer = GenerationTurnDuration;
+                }
+                else
+                {
+                    SetTurn(TurnState.PlayerTurn);
+                    CurrentTimer = PlayerTurnDuration;
+                    TouristSpawnManager.m_instance.Generate = true;
+                }
             }
-            else
+        }
+    }
+
+    public bool IsPlayerTurn()
+    {
+        return m_TurnState == TurnState.PlayerTurn;
+    }
+
+    public void SetTurn(TurnState state)
+    {
+        if (state != m_TurnState)
+        {
+            Debug.Log("TurnChanged: " + state);
+            m_TurnState = state;
+            if (onChangeTurnEvent != null)
             {
-                IsPlayerTurn = true;
-                CurrentTimer = PlayerTurnDuration;
-                TouristSpawnManager.m_instance.Generate = true;
+                onChangeTurnEvent(state);
             }
         }
     }
