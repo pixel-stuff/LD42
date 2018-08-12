@@ -17,7 +17,7 @@ public class touristSize : MonoBehaviour {
     public int MaxTurn = 6;
 
     int currentTurnLife = 0;
-
+    bool destroy = false;
     [SerializeField] UnityEvent IsLastTurn;
     public Vector2 GetTileOffset() {
             //calcul rectangle size
@@ -81,6 +81,8 @@ public class touristSize : MonoBehaviour {
             {
                 Unspawn();
                 TouristSpawnManager.m_instance.m_SpawnedPrefab.Remove(gameObject);
+                GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
+                destroy = true;
             }
         }
         else if (state == TurnState.PlayerTurn)
@@ -88,11 +90,15 @@ public class touristSize : MonoBehaviour {
         }
     }
 
+    public void Update()
+    {
+        if(destroy)
+        Destroy(gameObject);
+    }
+
     public void Unspawn()
     {
         TileGenerator.ReleaseTile(ReservedTileIndex);
-        GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
-        Destroy(gameObject);
     }
 
     public void SetReservedTileIndex(List<Vector2> inIndex)
