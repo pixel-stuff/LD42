@@ -7,10 +7,8 @@ public class touristSize : MonoBehaviour {
 
     private List<Vector2> ReservedTileIndex;
     public Vector2 tileOffset;
-    // Use this for initialization
+
     public Vector2 GetTileOffset() {
-        if (tileOffset == Vector2.zero)
-        {
             //calcul rectangle size
             int MaxX = -1;
             int MaxY = -1;
@@ -35,7 +33,6 @@ public class touristSize : MonoBehaviour {
             {
                 tileOffset.y = (float)MaxY / 2f;
             }
-        }
         return tileOffset;
     }
 	
@@ -51,8 +48,7 @@ public class touristSize : MonoBehaviour {
         }
     }
 
-	// Update is called once per frame
-	void Update () {
+	void Start () {
 		
 	}
 
