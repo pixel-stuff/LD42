@@ -30,7 +30,7 @@ public class TouristSpawnManager : MonoBehaviour {
     private int minimumNearPlayer = 1;
     public int maxNearPlayer = 3;
 
-    public bool Generate = false;
+    public bool GenerateNextFrame = false;
 
     public List<GameObject> m_SpawnedPrefab;
 
@@ -41,29 +41,31 @@ public class TouristSpawnManager : MonoBehaviour {
 
     public void handleChangeTurnEvent(TurnState state)
     {
+        
+
+        if (state == TurnState.GenerationTurn) //player turn is Over
+        {
+            Generate();
+        }
+        else if (state == TurnState.PlayerTurn)
+        {
+        }
+
         List<int> nullIndexes = new List<int>();
         for (int i = 0; i < m_SpawnedPrefab.Count; i++)
         {
-            if(m_SpawnedPrefab[i] == null)
+            if (m_SpawnedPrefab[i] == null)
             {
                 nullIndexes.Add(i);
             }
             else
             {
                 m_SpawnedPrefab[i].GetComponent<touristSize>().handleChangeTurnEvent(state);
-            }  
+            }
         }
         for (int j = 0; j < nullIndexes.Count; j++)
         {
             m_SpawnedPrefab.RemoveAt(nullIndexes[j]);
-        }
-
-        if (state == TurnState.GenerationTurn) //player turn is Over
-        {
-            Generate = true;
-        }
-        else if (state == TurnState.PlayerTurn)
-        {
         }
     }
 
@@ -85,43 +87,48 @@ public class TouristSpawnManager : MonoBehaviour {
 
         // Update is called once per frame
         void Update () {
-        if(Generate)
+        if(GenerateNextFrame)
         {
-            Generate = false;
-            Shuffle(m_TouristPrefab);
-            foreach(GameObject currentPrefab in m_TouristPrefab)
+            GenerateNextFrame = false;
+            Generate();
+        }
+	}
+
+    void Generate()
+    {
+        Shuffle(m_TouristPrefab);
+        foreach (GameObject currentPrefab in m_TouristPrefab)
+        {
+            if (currentPrefab != null)
             {
-                if (currentPrefab != null)
+                touristSize currentSize = currentPrefab.GetComponent<touristSize>();
+                List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
+                Shuffle(tileArray);
+                foreach (TileComponent currentTileComponent in tileArray)
                 {
-                    touristSize currentSize = currentPrefab.GetComponent<touristSize>();
-                    List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
-                    Shuffle(tileArray);
-                    foreach (TileComponent currentTileComponent in tileArray)
+                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                    if (generatedGameObject != null)
                     {
-                        GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
-                        if (generatedGameObject != null)
-                        {
-                            m_SpawnedPrefab.Add(generatedGameObject);
-                            return;
-                        }
+                        m_SpawnedPrefab.Add(generatedGameObject);
+                        return;
                     }
+                }
 
-                    List<TileComponent> allTileArray = TileGenerator.GetFreeTileComponent();
-                    Shuffle(allTileArray);
+                List<TileComponent> allTileArray = TileGenerator.GetFreeTileComponent();
+                Shuffle(allTileArray);
 
-                    foreach (TileComponent currentTileComponent in allTileArray)
+                foreach (TileComponent currentTileComponent in allTileArray)
+                {
+                    GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
+                    if (generatedGameObject != null)
                     {
-                        GameObject generatedGameObject = currentTileComponent.SpawnIfPossible(currentPrefab);
-                        if (generatedGameObject != null)
-                        {
-                            m_SpawnedPrefab.Add(generatedGameObject);
-                            return;
-                        }
+                        m_SpawnedPrefab.Add(generatedGameObject);
+                        return;
                     }
                 }
             }
         }
-	}
+    }
 
     private static System.Random rng = new System.Random();
 

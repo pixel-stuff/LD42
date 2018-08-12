@@ -32,6 +32,7 @@ public class touristSize : MonoBehaviour {
     bool destroy = false;
 
     public TouristeType m_Type = TouristeType.Generic;
+    [SerializeField] UnityEvent Spawn;
     [SerializeField] UnityEvent IsLastTurn;
     public Vector2 GetTileOffset() {
             //calcul rectangle size
