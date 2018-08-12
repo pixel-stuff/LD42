@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerComponent : MonoBehaviour {
 
+    public int CurrentTanValue = 0;
+    public int MaxTanValue = 100;
+
+    public int CurrentBreakDownValue = 100;
 
     public void GoAtPosition(Vector3 position, int rotation)
     {

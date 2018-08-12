@@ -6,7 +6,7 @@ using UnityEngine;
 public class TileGenerator : MonoBehaviour {
 
     public GameObject m_prefabTile;
-    public static int m_xSize = 10;
+    public static int m_xSize = 8;
     public static int m_ySize = 10;
 
     public static List<TileComponent> s_TileComponent = new List<TileComponent>();
