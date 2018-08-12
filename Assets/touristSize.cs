@@ -29,7 +29,7 @@ public class touristSize : MonoBehaviour {
     public int MaxTurn = 6;
 
     int currentTurnLife = 0;
-    bool destroy = false;
+    public bool destroy = false;
 
     public TouristeType m_Type = TouristeType.Generic;
     [SerializeField] UnityEvent SpawnEvent;

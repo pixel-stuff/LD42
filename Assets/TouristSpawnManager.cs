@@ -113,10 +113,16 @@ public class TouristSpawnManager : MonoBehaviour {
             {
                 bool CanGenerate = true;
                 touristSize currentSize = currentPrefab.GetComponent<touristSize>();
+                
                 int currentNumberOfThisType = 0;
                 //check if we can selectThisOne
                 for (int i = 0; i < m_SpawnedPrefab.Count; i++)
                 {
+                    if (m_SpawnedPrefab[i].GetComponent<touristSize>().destroy)
+                    {
+                        Destroy(m_SpawnedPrefab[i]);
+                        continue;
+                    }
                     if (m_SpawnedPrefab[i] != null && m_SpawnedPrefab[i].GetComponent<touristSize>().m_Type == currentSize.m_Type)
                     {
                         currentNumberOfThisType++;
