@@ -33,7 +33,7 @@ public class GameTurnManager : MonoBehaviour {
 
 
     public static TurnState m_TurnState = TurnState.PlayerTurn; 
-    public static Action<TurnState> onChangeTurnEvent;
+    //public static Action<TurnState> onChangeTurnEvent;
 
 
     public float PlayerTurnDuration = 3f;
@@ -98,10 +98,8 @@ public class GameTurnManager : MonoBehaviour {
         {
             Debug.Log("TurnChanged: " + state);
             m_TurnState = state;
-            if (onChangeTurnEvent != null)
-            {
-                onChangeTurnEvent(state);
-            }
+            PlayerManager.m_instance.m_player.GetComponent<PlayerComponent>().handleChangeTurnEvent(state);
+            TouristSpawnManager.m_instance.handleChangeTurnEvent(state);
         }
     }
 }

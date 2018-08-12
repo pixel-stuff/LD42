@@ -44,7 +44,13 @@ public class touristSize : MonoBehaviour {
             {
                 tileOffset.y = (float)MaxY / 2f;
             }
-        return tileOffset;
+
+            if(MaxX == 0 && MaxY == 0)
+            {
+                tileOffset.x = 0;
+                tileOffset.y = 0;
+        }
+            return tileOffset;
     }
 	
     public void SetOrderInLayer(int x, int y)
@@ -80,22 +86,14 @@ public class touristSize : MonoBehaviour {
             if(currentTurnLife == 0)
             {
                 Unspawn();
-                TouristSpawnManager.m_instance.m_SpawnedPrefab.Remove(gameObject);
+                //TouristSpawnManager.m_instance.m_SpawnedPrefab.Remove(gameObject);
                 //GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
+                Destroy(gameObject);
                 destroy = true;
             }
         }
         else if (state == TurnState.PlayerTurn)
         {
-        }
-    }
-
-    public void Update()
-    {
-        if (destroy)
-        {
-            Debug.Log("Destroy");
-            Destroy(gameObject);
         }
     }
 

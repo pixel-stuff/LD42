@@ -41,13 +41,8 @@ public class PlayerComponent : MonoBehaviour {
             //set move to gamemanager
         }
     }
-	// Use this for initialization
-	void Start () {
-        GameTurnManager.onChangeTurnEvent += handleChangeTurnEvent;
-
-    }
 	
-    void handleChangeTurnEvent(TurnState state)
+    public void handleChangeTurnEvent(TurnState state)
     {
         if(state == TurnState.GenerationTurn) //player turn is Over
         {
@@ -72,7 +67,6 @@ public class PlayerComponent : MonoBehaviour {
         if (CurrentTanValue >= MaxTanValue)
         {
             //gameOver
-            GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
             GameStateManager.setGameState(GameState.GameOver);
             SceneManager.LoadSceneAsync(GameOverSceneName);
         }
@@ -108,7 +102,6 @@ public class PlayerComponent : MonoBehaviour {
             if (CurrentBreakDownValue <= 0)
             {
                 //gameOver
-                GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
                 GameStateManager.setGameState(GameState.GameOver);
                 SceneManager.LoadSceneAsync(touristSize.GameOverSceneName);
             }
