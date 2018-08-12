@@ -6,7 +6,7 @@ public class TouristSpawnManager : MonoBehaviour {
 
     public List<GameObject> m_TouristPrefab;
 
-    public int minimumNearPlayer = 1;
+    private int minimumNearPlayer = 1;
     public int maxNearPlayer = 3;
 
     public bool Generate = false;

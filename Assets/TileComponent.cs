@@ -69,13 +69,12 @@ public class TileComponent : MonoBehaviour {
     {
         Sprite sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         Vector2 SpriteSize = sprite.bounds.size;
-        Vector3 position = this.transform.position + new Vector3(SpriteSize.x / 2, 0, 0);
+        Vector3 position = this.transform.position + new Vector3(SpriteSize.x * playerSpawnPossibility.GetComponent<touristSize>().GetTileOffset().x, SpriteSize.y * playerSpawnPossibility.GetComponent<touristSize>().GetTileOffset().y, 0);
 
         if (m_rotation == 1)
         {
-            position = this.transform.position + new Vector3(0, -SpriteSize.y / 2, 0);
+            position = this.transform.position + new Vector3(SpriteSize.y * playerSpawnPossibility.GetComponent<touristSize>().GetTileOffset().y, SpriteSize.x * playerSpawnPossibility.GetComponent<touristSize>().GetTileOffset().x, 0);
         }
-
         playerSpawnPossibilityGO = (GameObject)Instantiate(playerSpawnPossibility, position, Quaternion.identity);
 
         if(m_rotation == 1)
@@ -93,11 +92,11 @@ public class TileComponent : MonoBehaviour {
     {
         Sprite sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         Vector2 SpriteSize = sprite.bounds.size;
-        Vector3 position = this.transform.position + new Vector3(SpriteSize.x / 2, 0, 0);
+        Vector3 position = this.transform.position + new Vector3(SpriteSize.x * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().x, SpriteSize.y * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().y, 0);
 
         if (m_rotation == 1)
         {
-            position = this.transform.position + new Vector3(0, -SpriteSize.y / 2, 0);
+            position = this.transform.position + new Vector3(SpriteSize.y * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().y, SpriteSize.x * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().x, 0);
         }
         PlayerManager.m_instance.m_player.GoAtPosition(position, (m_rotation == 1) ? 90 : 0);
         FillTouristTileComponent(PlayerManager.m_instance.m_player.GetComponent<touristSize>());
@@ -116,11 +115,11 @@ public class TileComponent : MonoBehaviour {
         FillTouristTileComponent(tourist);
         Sprite sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         Vector2 SpriteSize = sprite.bounds.size;
-        Vector3 position = this.transform.position + new Vector3(SpriteSize.x / 2, SpriteSize.y / 2, 0);
+        Vector3 position = this.transform.position + new Vector3(SpriteSize.x * touristPrefab.GetComponent<touristSize>().GetTileOffset().x, SpriteSize.y * touristPrefab.GetComponent<touristSize>().GetTileOffset().y, 0);
 
         if (m_rotation == 1)
         {
-          //  position = this.transform.position + new Vector3(0, -SpriteSize.y / 2, 0);
+            position = this.transform.position + new Vector3(SpriteSize.y * touristPrefab.GetComponent<touristSize>().GetTileOffset().y, SpriteSize.x * touristPrefab.GetComponent<touristSize>().GetTileOffset().x, 0);
         }
 
         GameObject touristSpawnGO = (GameObject)Instantiate(touristPrefab, position, Quaternion.identity);
