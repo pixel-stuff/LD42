@@ -88,7 +88,11 @@ public class TouristSpawnManager : MonoBehaviour {
         {
            foreach(GameObject currentTouristGO in m_SpawnedPrefab)
             {
-                currentTouristGO.GetComponent<touristSize>().Unspawn();
+                if (currentTouristGO != null)
+                {
+                    currentTouristGO.GetComponent<touristSize>().Unspawn();
+                    Destroy(currentTouristGO);
+                }
             }
             m_SpawnedPrefab.Clear();
         }
