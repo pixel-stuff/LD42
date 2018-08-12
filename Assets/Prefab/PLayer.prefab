@@ -85,7 +85,7 @@ MonoBehaviour:
   takenSize:
   - {x: 0, y: 0}
   - {x: 0, y: 1}
-  tileOffset: {x: 0, y: 0}
+  tileOffset: {x: 0, y: 0.5}
 --- !u!114 &114697952337184266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -131,7 +131,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 5e9afe13587469b42b6eefa6e68c01d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

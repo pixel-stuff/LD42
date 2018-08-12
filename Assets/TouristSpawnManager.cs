@@ -4,6 +4,27 @@ using UnityEngine;
 
 public class TouristSpawnManager : MonoBehaviour {
 
+    #region Singleton
+    public static TouristSpawnManager m_instance;
+    void Awake()
+    {
+        if (m_instance == null)
+        {
+            //If I am the first instance, make me the Singleton
+            m_instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            //If a Singleton already exists and you find
+            //another reference in scene, destroy it!
+            if (this != m_instance)
+                Destroy(this.gameObject);
+        }
+    }
+    #endregion Singleton
+
+
     public List<GameObject> m_TouristPrefab;
 
     private int minimumNearPlayer = 1;

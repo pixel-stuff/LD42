@@ -589,9 +589,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TouristPrefab:
-  - {fileID: 1599766050680894, guid: 976d7aa135f8b514481575b7ee3fea94, type: 2}
   - {fileID: 1599766050680894, guid: d01f1caeb4c44a244921845246e58b52, type: 2}
-  - {fileID: 1627106848319312, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
+  - {fileID: 1599766050680894, guid: 8ae34b60337f80e4cb6ea384321c6536, type: 2}
+  - {fileID: 1599766050680894, guid: 41c135d945801e3498dac8da14f179b7, type: 2}
   maxNearPlayer: 3
   Generate: 0
 --- !u!4 &945281000
@@ -606,6 +606,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1014477776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1014477778}
+  - component: {fileID: 1014477777}
+  m_Layer: 0
+  m_Name: GameTurnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1014477777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014477776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4fb89322b42c4db7ed121108d18db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerTurnDuration: 5
+  GenerationTurnDuration: 2
+  IsPlayerTurn: 1
+--- !u!4 &1014477778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014477776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.300773, y: -0.08353442, z: -0.009428474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183100848
 GameObject:

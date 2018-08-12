@@ -39,7 +39,7 @@ public class TileComponent : MonoBehaviour {
             SpawnPlayer();
         }
 
-        if(m_IsOver)
+        if(m_IsOver && GameTurnManager.m_instance.IsPlayerTurn)
         {
             m_rotation = TileMatching(TileGenerator.GetFreeTileForPlayer(), playerSpawnPossibility.GetComponent<touristSize>().takenSize,1);
             if (m_rotation != -1 && !m_IsSpawnPossible)
