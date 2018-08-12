@@ -81,6 +81,7 @@ public class touristSize : MonoBehaviour {
     }
 
 	void Start () {
+        SpawnEvent.Invoke();
         if (gameObject.GetComponent<PlayerComponent>() == null)
         {
             currentTurnLife = Random.Range(MinTurn, MaxTurn);
@@ -94,7 +95,7 @@ public class touristSize : MonoBehaviour {
         if (state == TurnState.GenerationTurn) //player turn is Over
         {
             currentTurnLife--;
-            if(currentTurnLife == 1)
+            if(currentTurnLife == 0)
             {
                 UnspawnEvent.Invoke();
             }
@@ -103,7 +104,7 @@ public class touristSize : MonoBehaviour {
                 Unspawn();
                 //TouristSpawnManager.m_instance.m_SpawnedPrefab.Remove(gameObject);
                 //GameTurnManager.onChangeTurnEvent -= handleChangeTurnEvent;
-                Destroy(gameObject);
+                //Destroy(gameObject);
                 destroy = true;
             }
         }
