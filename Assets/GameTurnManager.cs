@@ -67,7 +67,7 @@ public class GameTurnManager : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
-        if (AuthoriseGeneration)
+        if (AuthoriseGeneration && PlayerManager.m_instance.m_player.isActiveAndEnabled)
         {
             CurrentTimer -= Time.deltaTime;
 
