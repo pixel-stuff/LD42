@@ -32,8 +32,8 @@ public class touristSize : MonoBehaviour {
     bool destroy = false;
 
     public TouristeType m_Type = TouristeType.Generic;
-    [SerializeField] UnityEvent Spawn;
-    [SerializeField] UnityEvent IsLastTurn;
+    [SerializeField] UnityEvent SpawnEvent;
+    [SerializeField] UnityEvent UnspawnEvent;
     public Vector2 GetTileOffset() {
             //calcul rectangle size
             int MaxX = -1;
@@ -96,7 +96,7 @@ public class touristSize : MonoBehaviour {
             currentTurnLife--;
             if(currentTurnLife == 1)
             {
-                IsLastTurn.Invoke();
+                UnspawnEvent.Invoke();
             }
             if(currentTurnLife == 0)
             {

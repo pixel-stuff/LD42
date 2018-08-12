@@ -50,6 +50,10 @@ public class PlayerComponent : MonoBehaviour {
             transform.localEulerAngles = new Vector3(0, 0, rotation);
             //set move to gamemanager
         }
+        else
+        {
+            GameTurnManager.m_instance.SkipPlayerTurn();
+        }
     }
 	
     public void handleChangeTurnEvent(TurnState state)
