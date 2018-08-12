@@ -3,6 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+public enum TouristeType
+{
+    Generic,
+    Couple,
+    Dog,
+    Famille,
+    JeuneZic,
+    Surfeuse,
+    Vendeur,
+    Volley
+}
+
 public class touristSize : MonoBehaviour {
     public Vector2[] takenSize;
 
@@ -18,6 +30,8 @@ public class touristSize : MonoBehaviour {
 
     int currentTurnLife = 0;
     bool destroy = false;
+
+    public TouristeType m_Type = TouristeType.Generic;
     [SerializeField] UnityEvent IsLastTurn;
     public Vector2 GetTileOffset() {
             //calcul rectangle size

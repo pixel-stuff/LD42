@@ -10,6 +10,12 @@ public class MyIntEvent : UnityEvent<int>
 {
 }
 
+[System.Serializable]
+public class TouristModifier
+{
+    public TouristeType touristeType = TouristeType.Generic;
+    public float modifier= 1.0f;
+}
 
 public class PlayerComponent : MonoBehaviour {
 
@@ -29,6 +35,10 @@ public class PlayerComponent : MonoBehaviour {
 
     public Text TanText;
     public Text BreakText;
+
+
+    public List<TouristModifier> m_modifier;
+
 
     public void GoAtPosition(Vector3 position, int rotation)
     {
@@ -60,7 +70,6 @@ public class PlayerComponent : MonoBehaviour {
 
     void ApplyTan()
     {
-        Debug.Log("ApplyTan:");
         CurrentTanValue += TanByTurn;
         TanApply.Invoke(CurrentTanValue);
         TanText.text = "TAN : " + CurrentTanValue;
@@ -75,7 +84,6 @@ public class PlayerComponent : MonoBehaviour {
     void ApplyNearTourist()
     {
         List<Vector2> nearPlayerTourist = TileGenerator.GetTouristTileNearPlayer(1);
-        Debug.Log("ApplyNearTourist to near player tourist " + nearPlayerTourist.Count);
         foreach(GameObject currentTouriste in TouristSpawnManager.m_instance.m_SpawnedPrefab)
         {
             touristSize currentTouristSize = currentTouriste.GetComponent<touristSize>();
@@ -93,10 +101,18 @@ public class PlayerComponent : MonoBehaviour {
 
     void ApplyTouristDebuf(touristSize touristSize)
     {
-        Debug.Log("TouristDebuf: " + touristSize.BreakDownValue);
+        float modifier = 1.0f;
+        foreach(TouristModifier touristeModifier in m_modifier)
+        {
+            if(touristeModifier.touristeType == touristSize.m_Type)
+            {
+                modifier = touristeModifier.modifier;
+            }
+        }
+
         if (touristSize.BreakDownValue > 0)
         {
-            CurrentBreakDownValue -= touristSize.BreakDownValue;
+            CurrentBreakDownValue -= (int)((float)touristSize.BreakDownValue * modifier);
             BreakDownApply.Invoke(CurrentBreakDownValue);
             BreakText.text = "Break : " + CurrentBreakDownValue;
             if (CurrentBreakDownValue <= 0)
@@ -107,9 +123,4 @@ public class PlayerComponent : MonoBehaviour {
             }
         }
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }
