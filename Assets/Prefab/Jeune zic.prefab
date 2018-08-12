@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212871143311861386}
   - component: {fileID: 114066182813008680}
   m_Layer: 0
-  m_Name: Familly 1
+  m_Name: Jeune zic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54,9 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   takenSize:
   - {x: 0, y: 0}
-  - {x: 1, y: 0}
   - {x: 0, y: 1}
-  - {x: 1, y: 1}
 --- !u!212 &212871143311861386
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -92,12 +90,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 80cd2156337e55940b323e2258f460cd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a983b1528989b842b2b0eea9af726d5, type: 3}
   m_Color: {r: 0.9433962, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.53, y: 0.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
