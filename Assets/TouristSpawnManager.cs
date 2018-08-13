@@ -149,7 +149,6 @@ public class TouristSpawnManager : MonoBehaviour {
                 if (CanGenerate)
                 {
                     List<TileComponent> tileArray = TileGenerator.GetFreeTileNearPlayer(minimumNearPlayer, maxNearPlayer);
-                    Debug.Log("TileArryNear : " + tileArray.Count);
                     Shuffle(tileArray);
                     foreach (TileComponent currentTileComponent in tileArray)
                     {

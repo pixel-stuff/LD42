@@ -244,6 +244,12 @@ MonoBehaviour:
   duration: 0.4
   SpawnAlphaValue: 0.6
   UnSpawnAlphaValue: 0.1
+--- !u!114 &101400506 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114904271593137964, guid: c1e19529f98c3184dbed1a3eb1aeed9a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1429748539}
+  m_Script: {fileID: 11500000, guid: 6c66a1bfb21af4c41827760d990b1e36, type: 3}
 --- !u!1 &155141829
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,7 +537,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
       propertyPath: m_LocalRotation.z
@@ -539,7 +545,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
       propertyPath: m_RootOrder
@@ -548,6 +554,10 @@ Prefab:
     - target: {fileID: 4905696538562800, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
@@ -686,7 +696,7 @@ Prefab:
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4683111941085986, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
       propertyPath: m_LocalPosition.x
@@ -727,6 +737,11 @@ Prefab:
       objectReference: {fileID: 1101446367}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1926670732}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
       propertyPath: TanText
       value: 
       objectReference: {fileID: 804740493}
@@ -735,25 +750,44 @@ Prefab:
       propertyPath: BreakText
       value: 
       objectReference: {fileID: 1010322580}
-    - target: {fileID: 1627106848319312, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
+    - target: {fileID: 1611828827736008, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212280531642974436, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
-      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
-      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1926670732}
+      objectReference: {fileID: 101400506}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: HandleChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627106848319312, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -763,6 +797,11 @@ Prefab:
         type: 2}
       propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: BreakDownApply.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
@@ -1071,7 +1110,7 @@ MonoBehaviour:
     MaxOccurence: 3
   - touristeType: 2
     MaxOccurence: 1
-  maxNearPlayer: 4
+  maxNearPlayer: 2
   GenerateNextFrame: 0
   WaitTimeGeneration: 0.5
   m_SpawnedPrefab: []

@@ -105,8 +105,8 @@ public class TileComponent : MonoBehaviour {
         {
             position = this.transform.position + new Vector3(SpriteSize.y * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().y, SpriteSize.x * PlayerManager.m_instance.m_player.GetComponent<touristSize>().GetTileOffset().x, 0);
         }
-        Debug.Log("FillPLayer and reserve");
         FillTouristTileComponent(PlayerManager.m_instance.m_player.GetComponent<touristSize>());
+        Debug.Log("SpawnPlayer in tile : " + (int)m_tileIndex.x + " " + (int)m_tileIndex.y);
         PlayerManager.m_instance.m_player.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
         PlayerManager.m_instance.m_player.GoAtPosition(position, (m_rotation == 1) ? 90 : 0);
     }
@@ -131,6 +131,7 @@ public class TileComponent : MonoBehaviour {
 
         GameObject touristSpawnGO = (GameObject)Instantiate(touristPrefab, position, Quaternion.identity);
         touristSpawnGO.transform.localEulerAngles = new Vector3(0, 0, (m_rotation == 1) ? 90 : 0);
+        Debug.Log("SpawnPlayer in tile : " + (int)m_tileIndex.x + " " + (int)m_tileIndex.y);
         touristPrefab.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
         return touristSpawnGO;
     }

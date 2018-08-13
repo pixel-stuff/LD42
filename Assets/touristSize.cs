@@ -72,11 +72,13 @@ public class touristSize : MonoBehaviour {
     {
         SpriteRenderer[] sprites= gameObject.GetComponentsInChildren<SpriteRenderer>();
 
-        int orderInlayerValue = y * 100 + x;
+        int orderInlayerValue = -(y * 100 + x);
+        Debug.Log("SpawnPlayer in tile : " + x + " " + y + "Order IN value "+ orderInlayerValue);
 
-        for(int i =0; i< sprites.Length; i++)
+        for (int i =0; i< sprites.Length; i++)
         {
-            sprites[i].sortingOrder = -orderInlayerValue;
+            Debug.Log("Set  " + orderInlayerValue);
+            sprites[i].sortingOrder = orderInlayerValue;
         }
     }
 
