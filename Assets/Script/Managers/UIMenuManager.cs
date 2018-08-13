@@ -33,4 +33,12 @@ public class UIMenuManager : MonoBehaviour {
 		//a.allowSceneActivation = false;
 		timeStartLoading = Time.time;
 	}
+
+    public void GoToMenuScene()
+    {
+        GameStateManager.setGameState(GameState.Playing);
+        a = SceneManager.LoadSceneAsync("MenuScene");
+        //a.allowSceneActivation = false;
+        timeStartLoading = Time.time;
+    }
 }

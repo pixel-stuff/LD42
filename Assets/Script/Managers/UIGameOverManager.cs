@@ -18,12 +18,11 @@ public class UIGameOverManager : MonoBehaviour {
 
     public void ReturnToSceneMenu(){
 		GameStateManager.setGameState (GameState.Menu);
-		SceneManager.LoadSceneAsync("MenuScene");
+		SceneManager.LoadSceneAsync("Ecran Titre");
 	}
 	
 	public void ReturnToLevelScene(){
-        Debug.Log("AZER");
 		GameStateManager.setGameState (GameState.Playing);
-        SceneManager.LoadSceneAsync("LevelScene");
+        SceneManager.LoadSceneAsync("MenuScene");
 	}
 }
