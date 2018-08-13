@@ -34,5 +34,13 @@ public class CirculaireJauge : MonoBehaviour {
         //spriteRenderer.SetColor(Color.white);
         float percent = ((float)value) / MaxValue;
         targetIndex = (int)(percent * SortTab.Count) - 1;
+        if (targetIndex >= SortTab.Count)
+        {
+            targetIndex = SortTab.Count - 1;
+
+        } else if (targetIndex < 0)
+        {
+            targetIndex = 0;
+        }
     }
 }
