@@ -1,12 +1,120 @@
 fileFormatVersion: 2
 guid: cfba627cb142bf0468b7571ad4686c9d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: jauge-life-450x450-spritesheet_0
+    21300002: jauge-life-450x450-spritesheet_1
+    21300004: jauge-life-450x450-spritesheet_2
+    21300006: jauge-life-450x450-spritesheet_3
+    21300008: jauge-life-450x450-spritesheet_4
+    21300010: jauge-life-450x450-spritesheet_5
+    21300012: jauge-life-450x450-spritesheet_6
+    21300014: jauge-life-450x450-spritesheet_7
+    21300016: jauge-life-450x450-spritesheet_8
+    21300018: jauge-life-450x450-spritesheet_9
+    21300020: jauge-life-450x450-spritesheet_10
+    21300022: jauge-life-450x450-spritesheet_11
+    21300024: jauge-life-450x450-spritesheet_12
+    21300026: jauge-life-450x450-spritesheet_13
+    21300028: jauge-life-450x450-spritesheet_14
+    21300030: jauge-life-450x450-spritesheet_15
+    21300032: jauge-life-450x450-spritesheet_16
+    21300034: jauge-life-450x450-spritesheet_17
+    21300036: jauge-life-450x450-spritesheet_18
+    21300038: jauge-life-450x450-spritesheet_19
+    21300040: jauge-life-450x450-spritesheet_20
+    21300042: jauge-life-450x450-spritesheet_21
+    21300044: jauge-life-450x450-spritesheet_22
+    21300046: jauge-life-450x450-spritesheet_23
+    21300048: jauge-life-450x450-spritesheet_24
+    21300050: jauge-life-450x450-spritesheet_25
+    21300052: jauge-life-450x450-spritesheet_26
+    21300054: jauge-life-450x450-spritesheet_27
+    21300056: jauge-life-450x450-spritesheet_28
+    21300058: jauge-life-450x450-spritesheet_29
+    21300060: jauge-life-450x450-spritesheet_30
+    21300062: jauge-life-450x450-spritesheet_31
+    21300064: jauge-life-450x450-spritesheet_32
+    21300066: jauge-life-450x450-spritesheet_33
+    21300068: jauge-life-450x450-spritesheet_34
+    21300070: jauge-life-450x450-spritesheet_35
+    21300072: jauge-life-450x450-spritesheet_36
+    21300074: jauge-life-450x450-spritesheet_37
+    21300076: jauge-life-450x450-spritesheet_38
+    21300078: jauge-life-450x450-spritesheet_39
+    21300080: jauge-life-450x450-spritesheet_40
+    21300082: jauge-life-450x450-spritesheet_41
+    21300084: jauge-life-450x450-spritesheet_42
+    21300086: jauge-life-450x450-spritesheet_43
+    21300088: jauge-life-450x450-spritesheet_44
+    21300090: jauge-life-450x450-spritesheet_45
+    21300092: jauge-life-450x450-spritesheet_46
+    21300094: jauge-life-450x450-spritesheet_47
+    21300096: jauge-life-450x450-spritesheet_48
+    21300098: jauge-life-450x450-spritesheet_49
+    21300100: jauge-life-450x450-spritesheet_50
+    21300102: jauge-life-450x450-spritesheet_51
+    21300104: jauge-life-450x450-spritesheet_52
+    21300106: jauge-life-450x450-spritesheet_53
+    21300108: jauge-life-450x450-spritesheet_54
+    21300110: jauge-life-450x450-spritesheet_55
+    21300112: jauge-life-450x450-spritesheet_56
+    21300114: jauge-life-450x450-spritesheet_57
+    21300116: jauge-life-450x450-spritesheet_58
+    21300118: jauge-life-450x450-spritesheet_59
+    21300120: jauge-life-450x450-spritesheet_60
+    21300122: jauge-life-450x450-spritesheet_61
+    21300124: jauge-life-450x450-spritesheet_62
+    21300126: jauge-life-450x450-spritesheet_63
+    21300128: jauge-life-450x450-spritesheet_64
+    21300130: jauge-life-450x450-spritesheet_65
+    21300132: jauge-life-450x450-spritesheet_66
+    21300134: jauge-life-450x450-spritesheet_67
+    21300136: jauge-life-450x450-spritesheet_68
+    21300138: jauge-life-450x450-spritesheet_69
+    21300140: jauge-life-450x450-spritesheet_70
+    21300142: jauge-life-450x450-spritesheet_71
+    21300144: jauge-life-450x450-spritesheet_72
+    21300146: jauge-life-450x450-spritesheet_73
+    21300148: jauge-life-450x450-spritesheet_74
+    21300150: jauge-life-450x450-spritesheet_75
+    21300152: jauge-life-450x450-spritesheet_76
+    21300154: jauge-life-450x450-spritesheet_77
+    21300156: jauge-life-450x450-spritesheet_78
+    21300158: jauge-life-450x450-spritesheet_79
+    21300160: jauge-life-450x450-spritesheet_80
+    21300162: jauge-life-450x450-spritesheet_81
+    21300164: jauge-life-450x450-spritesheet_82
+    21300166: jauge-life-450x450-spritesheet_83
+    21300168: jauge-life-450x450-spritesheet_84
+    21300170: jauge-life-450x450-spritesheet_85
+    21300172: jauge-life-450x450-spritesheet_86
+    21300174: jauge-life-450x450-spritesheet_87
+    21300176: jauge-life-450x450-spritesheet_88
+    21300178: jauge-life-450x450-spritesheet_89
+    21300180: jauge-life-450x450-spritesheet_90
+    21300182: jauge-life-450x450-spritesheet_91
+    21300184: jauge-life-450x450-spritesheet_92
+    21300186: jauge-life-450x450-spritesheet_93
+    21300188: jauge-life-450x450-spritesheet_94
+    21300190: jauge-life-450x450-spritesheet_95
+    21300192: jauge-life-450x450-spritesheet_96
+    21300194: jauge-life-450x450-spritesheet_97
+    21300196: jauge-life-450x450-spritesheet_98
+    21300198: jauge-life-450x450-spritesheet_99
+    21300200: jauge-life-450x450-spritesheet_100
+    21300202: jauge-life-450x450-spritesheet_101
+    21300204: jauge-life-450x450-spritesheet_102
+    21300206: jauge-life-450x450-spritesheet_103
+    21300208: jauge-life-450x450-spritesheet_104
+    21300210: jauge-life-450x450-spritesheet_105
+    21300212: jauge-life-450x450-spritesheet_106
+    21300214: jauge-life-450x450-spritesheet_107
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +142,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +157,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +177,2239 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2df84996a0b45e429c66dcfb94de754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5856810904c4ea4cbf074b44492dbd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aec59088950214d8ad171942345486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eb48ce857d7d34a9322b99866f8b25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b4c654c9f337e4f9abba91399ead9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd122cf4cfd97e348a4fd24ff6e76cb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814d4fd0bfc8b543b9b6184cc6cffcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8a0bb15401cc64aa769c473cb05fa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfdaea37f60de74bb66e69c2b1986e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3792d161e5338374084c1f941aaf091f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f585f7f7e541b4bb5221e58c765be3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3600
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5082387c1d74dbd4c83192524a479ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e82fb58b2b4b674a97b5dd906292138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39332184734212468e3f24bb8033cea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296ebd4d2d0dae94695b5375c0eb1202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668b221516cf6eb4bb138ccb8db2805c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66395418b6315ac46b98a8daf61be7de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672d50ccdb1f32843845815b65b1db93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121264680b3f73f44b7aa73409a769d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423b97038909c4b43ac29f6f4bc38a57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2863bc6133693449d1f00cc8c348db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708bfd012eaf1f24bb894caaec27bc5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf955688aff629489499ef521178040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3150
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83443e3c3684e045845d954d5bb73a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2fa26181a95b04c976ddf3a6ac58f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d837eff43c0a384c8d07cb3b166bf26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546825f8595f4a746a0e7698f7e51552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa3e0945d7eb0d40a8e6d210a5833a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f799cc81bf8247d448cb32404fe790b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f43adf906222c4e810fcb651852fdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde340ae7099a7419d53d74b08267b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc162b7f1674e4b9972e5b5e453f29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e300115cb0fe0324f88910f666ee04b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45c00056fd745848beb66b5c3eb17d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49283144f12f74f40979207bf810b4d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2700
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf214c64f276e064f916becc0b0ac3b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46aeab2867440549b19fa93721b8eae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4467c33bd1688842b80ff9ab758a676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64cc3f518ad0ec4f9f64280502d4906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273ce0ade8e801647a448f9fd891188e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a2df92128eed943af277a88f79799f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4c83ea1c15c7640b5d54c422eb01a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363435bf49dafd64bbfc8aed7d7b0ee4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2757dd97f846e714b8146748cf097e81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a985082a25df04f911b16d215c7c18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571af100532064048ac491fed0d29c05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813525eda30bdb345b42bf30bfb07c26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2250
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a650575ca00759d4da323038b8ca4aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36314b576be56d94b8196a84c8f71d68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737eb60fa4353e44393629fbbf830393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa88ef6139e8984a9fb816a9189c89f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356aac47583ec2045a6b930f6d860dd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fecd90cc6b5944ebac6e0815221806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c5c8036838b444820b8ecfa56075a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98f91efd351e40429c87f8200c9ca4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ae653e10d895d4c9c8d4b00b566851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d055b3883418546aebc1e885839c26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d64924d2aba7b458da2cdb4d054410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fd22276cbaff844a3ac706e30b6518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1800
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e51f91767c856246a2fa10b97a06c3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57445f8f6c83d504481d1e3e111c5ae3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64766b4a7cc90c34d96811d6b7783d48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317d3fe7063f15e41b2bde038f578235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56413dfec4fbf5a48b5a0bbf646e815f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73827bccc01cc9a41b4f64ae3afeb62f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9886431b9b3f2c448aefa8a2aec3b2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd52e4c8248d061479ab51edc55963e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc77cf7b82946a643ac11d0496c32ff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350553c7ca232db41a61d2f32571de36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31f2a416fa6c1c47a1d174fe3e79840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634c508180f38f7409531701b1bbcf5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1350
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e14e410e140fd1469a772c4ff55dbb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beee7eda8cd8fb41b0f80693d6aac7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0afc850fc7e3a43851249352542ae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5746f68172ace5d43b6bc4ea09902a91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531f5acc8155a2845b40457086495e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb4387ff0c3e4a4ab0f9487cb6b8e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a7cf4fd8b652444bab78e25623e5f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84674ed87f13c9149838840bbdd4f87c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe8e9851d927dd4488af3707fef0aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4788d86ed9d1aa84c93b366a7c50042a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8654056c9b05b83448c4fafb2f30674a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdd64aed54352f409241d4263d837e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 900
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca5946032dfd9441b5983615c3e2c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1d23cb8fa8dc44cb00d7bca752ba88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7392b8490ca1e64aa130aac63ac22d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12715e92375cffa4782e370f1a79e542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58385049c2aa9943b09137c396161a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96973b007170c4243b753943cfcc91d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab278f28eb2ef04f83ebef2977ee57b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1b0084626f7b847ac8f36a29e1025d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eb8f36470ee1b4d88f88df555d016e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f93306101e2cf3409337d716b851c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d127b07e880184c4eadfcaf77e4f5ea0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64ff9d8f15887548b6a7f0cbc52bf7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 450
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cba38b90499be44a1b7411d72daa66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ce98a15c80efc44b5a35113585c2a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a96a3abce078894682a6757c4202d02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fc5c9ffc9bb6e458f201f20f5fd25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b17d65ab2650d04385d82dcf13741b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde60876521bee64286f155df73b468e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7811748011eec347b9eeb7dac5f31f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd77dcb7cbc42d4f82e0dd93a744481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0636ba86a8cd74a99696f6e389e898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef0f391682f4ad47bf672b92fd1ece1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e7fb1d5be75b746859436ab92365b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bfa4eca63853c408f28ca1778f171d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jauge-life-450x450-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 0
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec39afde4d17044b87b28c6d27bbd28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e68a36646eb22c142bcfbc2fe87ecd69
     vertices: []
     indices: 
     edges: []
