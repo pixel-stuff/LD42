@@ -91,6 +91,7 @@ MonoBehaviour:
   GameOverSceneName: GameOverScene
   MinTurn: 2
   MaxTurn: 6
+  destroy: 0
   m_Type: 0
   SpawnEvent:
     m_PersistentCalls:
@@ -115,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentTanValue: 0
   MaxTanValue: 100
-  TanByTurn: 5
+  TanByTurn: 8
   CurrentBreakDownValue: 70
   GameOverSceneName: GameOverScene
   TanApply:
