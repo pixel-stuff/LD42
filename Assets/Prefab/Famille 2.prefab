@@ -83,7 +83,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -204,17 +204,18 @@ MonoBehaviour:
   - {x: 2, y: 0}
   - {x: 2, y: 1}
   ReservedTileIndex:
+  - {x: 4, y: 5}
   - {x: 4, y: 6}
-  - {x: 4, y: 7}
+  - {x: 5, y: 5}
   - {x: 5, y: 6}
-  - {x: 5, y: 7}
+  - {x: 6, y: 5}
   - {x: 6, y: 6}
-  - {x: 6, y: 7}
   tileOffset: {x: 1, y: 0.5}
   BreakDownValue: 18
   GameOverSceneName: GameOverScene
   MinTurn: 6
   MaxTurn: 10
+  destroy: 0
   m_Type: 3
   SpawnEvent:
     m_PersistentCalls:
@@ -223,7 +224,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: e90a848040d77c1448f8d17f368d1d3e,
+          m_ObjectArgument: {fileID: 8300000, guid: b01c30687f6c45f408d277e0f5487341,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -295,8 +296,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -604
-  m_Sprite: {fileID: 21300000, guid: fed1169a4230c3d4a9460a85d26a4d24, type: 3}
+  m_SortingOrder: -504
+  m_Sprite: {fileID: 21300000, guid: b94ddb494410e79488b4f06b666171cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

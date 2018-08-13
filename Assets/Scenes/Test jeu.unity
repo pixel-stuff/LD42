@@ -3639,6 +3639,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &216040278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1599766050680894, guid: a2af059638c73dc4fa833997f6a15beb,
+    type: 2}
+  m_PrefabInternal: {fileID: 602667181}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216040280}
+  - component: {fileID: 216040279}
+  m_Layer: 0
+  m_Name: volley-spritesheet_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &216040279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114622251282877412, guid: a2af059638c73dc4fa833997f6a15beb,
+    type: 2}
+  m_PrefabInternal: {fileID: 602667181}
+  m_GameObject: {fileID: 216040278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ceb864327b1f046880e837919b6e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  takenSize:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: 0, y: 2}
+  - {x: 1, y: 2}
+  ReservedTileIndex: []
+  tileOffset: {x: 0, y: 0}
+  BreakDownValue: 18
+  GameOverSceneName: GameOverScene
+  MinTurn: 4
+  MaxTurn: 6
+  destroy: 0
+  m_Type: 7
+  SpawnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  UnspawnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!4 &216040280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb,
+    type: 2}
+  m_PrefabInternal: {fileID: 602667181}
+  m_GameObject: {fileID: 216040278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &218294798
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,6 +5257,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &271525018
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.750616
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.2107126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.16314758
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745669275244002, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078657513043242, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+      propertyPath: m_Name
+      value: Volley guys
+      objectReference: {fileID: 0}
+    - target: {fileID: 111557334636582914, guid: ea2e1db4007606541b4914beaf7777d1,
+        type: 2}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 34e55a2cdad3e2947bbaf25d36db66d5, type: 2}
+    - target: {fileID: 212294041546436118, guid: ea2e1db4007606541b4914beaf7777d1,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &275417910
 GameObject:
   m_ObjectHideFlags: 0
@@ -12999,6 +13123,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &602667181
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487825049047538, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599766050680894, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+      propertyPath: m_Name
+      value: volley-spritesheet_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &615785293
 GameObject:
   m_ObjectHideFlags: 0
@@ -18839,10 +19009,11 @@ MonoBehaviour:
   - {fileID: 1599766050680894, guid: 8ae34b60337f80e4cb6ea384321c6536, type: 2}
   - {fileID: 1599766050680894, guid: 41c135d945801e3498dac8da14f179b7, type: 2}
   - {fileID: 1599766050680894, guid: 80ce732749817af45a3f4bf8231da4c2, type: 2}
-  - {fileID: 1599766050680894, guid: 0f9106a1e09493740b4705cbe39ddf4c, type: 2}
+  - {fileID: 1078657513043242, guid: ea2e1db4007606541b4914beaf7777d1, type: 2}
   m_TouristSpawningRules: []
   maxNearPlayer: 3
   GenerateNextFrame: 0
+  WaitTimeGeneration: 0.5
   m_SpawnedPrefab: []
 --- !u!4 &945281000
 Transform:
