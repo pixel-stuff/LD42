@@ -205,12 +205,12 @@ MonoBehaviour:
   - {x: 2, y: 0}
   - {x: 2, y: 1}
   ReservedTileIndex:
-  - {x: 2, y: 8}
-  - {x: 2, y: 9}
-  - {x: 3, y: 8}
-  - {x: 3, y: 9}
-  - {x: 4, y: 8}
-  - {x: 4, y: 9}
+  - {x: 2, y: 5}
+  - {x: 2, y: 6}
+  - {x: 3, y: 5}
+  - {x: 3, y: 6}
+  - {x: 4, y: 5}
+  - {x: 4, y: 6}
   tileOffset: {x: 1, y: 0.5}
   BreakDownValue: 18
   GameOverSceneName: GameOverScene
@@ -320,7 +320,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -802
+  m_SortingOrder: -502
   m_Sprite: {fileID: 21300000, guid: b94ddb494410e79488b4f06b666171cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0

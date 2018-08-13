@@ -510,6 +510,48 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cbfd05395ef6042b5448cce58d6fd8, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &527481845
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.42181805
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.1116785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672894618261668, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0bcbbe1476254cd449f2d7976c152d87, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &718297282
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,6 +715,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1101446367}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanText
@@ -1097,6 +1144,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101446367 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114965254492217432, guid: 0bcbbe1476254cd449f2d7976c152d87,
+    type: 2}
+  m_PrefabInternal: {fileID: 527481845}
+  m_Script: {fileID: 11500000, guid: fcc3168fe16277c4faa8875d1a8ec47c, type: 3}
 --- !u!1 &1183100848
 GameObject:
   m_ObjectHideFlags: 0
