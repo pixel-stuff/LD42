@@ -175,7 +175,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1328369594579416}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cbe03baddfb9d084a985a1467225cb65, type: 2}
   m_CullingMode: 0
@@ -219,12 +219,12 @@ MonoBehaviour:
   - {x: 0, y: 2}
   - {x: 1, y: 2}
   ReservedTileIndex:
-  - {x: 5, y: 6}
-  - {x: 6, y: 6}
   - {x: 5, y: 7}
   - {x: 6, y: 7}
   - {x: 5, y: 8}
   - {x: 6, y: 8}
+  - {x: 5, y: 9}
+  - {x: 6, y: 9}
   tileOffset: {x: 0.5, y: 1}
   BreakDownValue: 18
   GameOverSceneName: GameOverScene
@@ -283,7 +283,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1328369594579416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -311,7 +311,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -605
+  m_SortingOrder: -705
   m_Sprite: {fileID: 21300000, guid: 3adee6f2cc878ec4a93b99ea46c498c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
