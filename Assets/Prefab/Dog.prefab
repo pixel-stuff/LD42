@@ -295,12 +295,13 @@ MonoBehaviour:
   takenSize:
   - {x: 0, y: 0}
   ReservedTileIndex:
-  - {x: 6, y: 3}
+  - {x: 2, y: 2}
   tileOffset: {x: 0, y: 0}
   BreakDownValue: 20
   GameOverSceneName: GameOverScene
   MinTurn: 1
   MaxTurn: 1
+  destroy: 0
   m_Type: 2
   SpawnEvent:
     m_PersistentCalls:
@@ -309,7 +310,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 3e48aa306ff19a3469cacf7216707684,
+          m_ObjectArgument: {fileID: 8300000, guid: 685b671df364b60409f48da7e3448e26,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -381,8 +382,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -306
-  m_Sprite: {fileID: 21300000, guid: 7a47e548b2810b441bc0b32d8b5b5f7d, type: 3}
+  m_SortingOrder: -202
+  m_Sprite: {fileID: 21300000, guid: 7e895708b493d7a4782a6aea4aeccf9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -84,7 +84,24 @@ MonoBehaviour:
   takenSize:
   - {x: 0, y: 0}
   - {x: 0, y: 1}
+  ReservedTileIndex: []
   tileOffset: {x: 0, y: 0.5}
+  BreakDownValue: 0
+  GameOverSceneName: GameOverScene
+  MinTurn: 2
+  MaxTurn: 6
+  destroy: 0
+  m_Type: 0
+  SpawnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  UnspawnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!212 &212747191270333188
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -120,7 +137,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5e9afe13587469b42b6eefa6e68c01d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94cc80ca86c90614884123dc98bc767f, type: 3}
   m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 0.59607846}
   m_FlipX: 0
   m_FlipY: 0
