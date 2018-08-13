@@ -1,0 +1,45 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208.86 246.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #3f2a0f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 12.03px;
+      }
+
+      .cls-4 {
+        fill: #3f2a0f;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="104.43" y1="41.88" x2="104.43" y2="166.98" gradientUnits="userSpaceOnUse">
+      <stop offset="0.43" stop-color="#ff932e"/>
+      <stop offset="1" stop-color="#ffd32e"/>
+    </linearGradient>
+  </defs>
+  <title>annoyed_buble</title>
+  <path class="cls-1" d="M208.86,104.43A104.43,104.43,0,1,0,81.13,206.25L82.9,209l24.61,37.5,24.6-37.5,3.08-4.7A104.47,104.47,0,0,0,208.86,104.43Z"/>
+  <g>
+    <circle class="cls-2" cx="104.43" cy="104.43" r="62.55"/>
+    <g>
+      <g>
+        <path class="cls-3" d="M68.22,83.49s8.14,13.18,27,15.81"/>
+        <circle class="cls-4" cx="85.12" cy="103.23" r="9.22"/>
+      </g>
+      <g>
+        <path class="cls-3" d="M140.64,83.49s-8.14,13.18-27,15.81"/>
+        <circle class="cls-4" cx="123.74" cy="103.23" r="9.22"/>
+      </g>
+    </g>
+    <path class="cls-3" d="M86.34,137.58a62.73,62.73,0,0,1,18.31-2.41,63.61,63.61,0,0,1,17.86,2.27"/>
+  </g>
+</svg>
