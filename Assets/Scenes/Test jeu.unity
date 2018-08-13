@@ -15858,6 +15858,10 @@ Prefab:
       propertyPath: TanByTurn
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1627106848319312, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
   m_IsPrefabAsset: 0
