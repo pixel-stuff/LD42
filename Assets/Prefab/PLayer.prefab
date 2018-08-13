@@ -186,7 +186,7 @@ MonoBehaviour:
   MaxTanValue: 100
   TanByTurn: 25
   CurrentBreakDownValue: 70
-  GameOverSceneName: GameOverScene
+  GameOverSceneName: WinScene
   TanApply:
     m_PersistentCalls:
       m_Calls: []
