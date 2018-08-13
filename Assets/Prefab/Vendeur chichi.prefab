@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4636084565464546}
   - component: {fileID: 212754336227674380}
   - component: {fileID: 95742813392866846}
+  - component: {fileID: 114627543668475238}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -176,7 +177,7 @@ Animator:
   m_GameObject: {fileID: 1300604186965330}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b955206082672c44bb2d28ba0874ef6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5e9a230f745a02647880c22e20d819cc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -200,8 +201,8 @@ MonoBehaviour:
   - {x: 0, y: 0}
   - {x: 1, y: 0}
   ReservedTileIndex:
-  - {x: 2, y: 8}
-  - {x: 3, y: 8}
+  - {x: 0, y: 3}
+  - {x: 1, y: 3}
   tileOffset: {x: 0.5, y: 0}
   BreakDownValue: 10
   GameOverSceneName: GameOverScene
@@ -224,6 +225,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 114627543668475238}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   UnspawnEvent:
@@ -241,9 +253,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 95742813392866846}
-        m_MethodName: SetTrigger
-        m_Mode: 5
+      - m_Target: {fileID: 114627543668475238}
+        m_MethodName: Unspawn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -254,6 +266,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114627543668475238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300604186965330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d5d6aff3a63604480f5b39de22b19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 1
 --- !u!212 &212754336227674380
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -288,7 +312,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -802
+  m_SortingOrder: -300
   m_Sprite: {fileID: 21300000, guid: 413f5506e0848264787f020984ebc770, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

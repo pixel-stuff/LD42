@@ -33,6 +33,9 @@ public class PlayerComponent : MonoBehaviour {
     [SerializeField] MyIntEvent TanApply;
     [SerializeField] MyIntEvent BreakDownApply;
 
+    [SerializeField] UnityEvent PlayerMove;
+    [SerializeField] UnityEvent PLayerChill;
+
     public Text TanText;
     public Text BreakText;
 
@@ -50,6 +53,7 @@ public class PlayerComponent : MonoBehaviour {
             transform.localEulerAngles = new Vector3(0, 0, rotation);
             //set move to gamemanager
         }
+        PlayerMove.Invoke();
         GameTurnManager.m_instance.SkipPlayerTurn();
     }
 	
@@ -65,6 +69,7 @@ public class PlayerComponent : MonoBehaviour {
         }
         else if (state == TurnState.PlayerTurn)
         {
+            PLayerChill.Invoke();
             playerMove = false;
         }
     }

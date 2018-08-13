@@ -641,16 +641,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: m_modifier.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4683111941085986, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -683,40 +673,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 1627106848319312, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 804740491}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanText
@@ -727,15 +683,9 @@ Prefab:
       propertyPath: BreakText
       value: 
       objectReference: {fileID: 1010322580}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: m_modifier.Array.data[0].touristeType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
-        type: 2}
-      propertyPath: m_modifier.Array.data[0].modifier
-      value: 500
+    - target: {fileID: 1627106848319312, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
@@ -942,13 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TouristPrefab:
-  - {fileID: 1599766050680894, guid: 18278958ee06a354898740cfa7052a4a, type: 2}
-  - {fileID: 1599766050680894, guid: 80ce732749817af45a3f4bf8231da4c2, type: 2}
-  - {fileID: 1186219942339320, guid: 67cbcc718fce81b40a4072642ba94adb, type: 2}
-  - {fileID: 1599766050680894, guid: 8ae34b60337f80e4cb6ea384321c6536, type: 2}
-  - {fileID: 1599766050680894, guid: c0c66e3df8b72a34aade56d1a903b63a, type: 2}
   - {fileID: 1599766050680894, guid: 41c135d945801e3498dac8da14f179b7, type: 2}
-  - {fileID: 1599766050680894, guid: a2af059638c73dc4fa833997f6a15beb, type: 2}
   m_TouristSpawningRules:
   - touristeType: 7
     MaxOccurence: 2
@@ -958,7 +902,7 @@ MonoBehaviour:
     MaxOccurence: 3
   - touristeType: 2
     MaxOccurence: 1
-  maxNearPlayer: 1
+  maxNearPlayer: 4
   GenerateNextFrame: 0
   WaitTimeGeneration: 0.5
   m_SpawnedPrefab: []
