@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4706388808722244}
   - component: {fileID: 212180496551839418}
   - component: {fileID: 95471687100812648}
+  - component: {fileID: 114756027361222468}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Untagged
@@ -176,7 +177,7 @@ Animator:
   m_GameObject: {fileID: 1353344821084004}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b955206082672c44bb2d28ba0874ef6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 077b6841d20cc3f4d969620b4576804d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -228,6 +229,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 114756027361222468}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   UnspawnEvent:
@@ -245,9 +257,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 95471687100812648}
-        m_MethodName: SetTrigger
-        m_Mode: 5
+      - m_Target: {fileID: 114756027361222468}
+        m_MethodName: Unspawn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -258,6 +270,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114756027361222468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353344821084004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d5d6aff3a63604480f5b39de22b19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 1
 --- !u!212 &212180496551839418
 SpriteRenderer:
   m_ObjectHideFlags: 1
