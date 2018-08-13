@@ -11,6 +11,8 @@ public class CirculaireJauge : MonoBehaviour {
     public int CurrentIndex = 0;
     public int targetIndex = 0;
 
+    public int MaxValue = 100;
+
     private float startTime;
     SpriteRenderer spriteRenderer;
 
@@ -30,7 +32,7 @@ public class CirculaireJauge : MonoBehaviour {
         CurrentIndex = targetIndex;
         startTime = Time.time;
         //spriteRenderer.SetColor(Color.white);
-        float percent = ((float)value) / (float)PlayerManager.m_instance.m_player.GetComponent<PlayerComponent>().MaxTanValue;
+        float percent = ((float)value) / MaxValue;
         targetIndex = (int)(percent * SortTab.Count) - 1;
     }
 }
