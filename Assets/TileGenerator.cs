@@ -27,7 +27,7 @@ public class TileGenerator : MonoBehaviour {
                 //newTile.transform.position = this.transform.position + Vector3(x * SpriteSize.x, y * SpriteSize.x, 0);
             }
         }
-        this.transform.position = -new Vector3(m_xSize * SpriteSize.x/2f, m_ySize * SpriteSize.x/2f, 0);
+        //this.transform.position = -new Vector3(m_xSize * SpriteSize.x/2f, m_ySize * SpriteSize.x/2f, 0);
     }
 
     public static List<Vector2> GetFreeTile()
