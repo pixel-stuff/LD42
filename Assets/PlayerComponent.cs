@@ -31,6 +31,7 @@ public class PlayerComponent : MonoBehaviour {
     bool playerMove = false;
 
     [SerializeField] MyIntEvent TanApply;
+    [SerializeField] MyIntEvent TanApplyButNoBreakDown;
     [SerializeField] MyIntEvent BreakDownApply;
 
     [SerializeField] UnityEvent PlayerMove;
@@ -63,8 +64,15 @@ public class PlayerComponent : MonoBehaviour {
         {
             if(!playerMove)
             {
+                int previousBreakDown = CurrentBreakDownValue;
+                int previousTan = CurrentTanValue;
                 ApplyTan();
                 ApplyNearTourist();
+
+                if(previousBreakDown == CurrentBreakDownValue && CurrentTanValue > previousTan)
+                {
+                    TanApplyButNoBreakDown.Invoke(CurrentTanValue);
+                }
             }
         }
         else if (state == TurnState.PlayerTurn)

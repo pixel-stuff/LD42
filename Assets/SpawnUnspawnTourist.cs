@@ -5,6 +5,8 @@ using UnityEngine;
 public class SpawnUnspawnTourist : MonoBehaviour {
 
     public float duration = 1.0f;
+    public float SpawnAlphaValue = 1.0f;
+    public float UnSpawnAlphaValue = 0.0f;
     bool IsSpawn = false;
     private float startTime;
     SpriteRenderer spriteRenderer;
@@ -21,11 +23,11 @@ public class SpawnUnspawnTourist : MonoBehaviour {
         {
             if (IsSpawn)
             {
-                spriteRenderer.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(0, 1, t));
+                spriteRenderer.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(UnSpawnAlphaValue, SpawnAlphaValue, t));
             }
             else
             {
-                spriteRenderer.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(1, 0, t));
+                spriteRenderer.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(SpawnAlphaValue, UnSpawnAlphaValue, t));
             }
         }
     }
