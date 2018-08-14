@@ -132,7 +132,7 @@ public class TileComponent : MonoBehaviour {
         GameObject touristSpawnGO = (GameObject)Instantiate(touristPrefab, position, Quaternion.identity);
         touristSpawnGO.transform.localEulerAngles = new Vector3(0, 0, (m_rotation == 1) ? 90 : 0);
         Debug.Log("SpawnPlayer in tile : " + (int)m_tileIndex.x + " " + (int)m_tileIndex.y);
-        touristPrefab.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
+        touristSpawnGO.GetComponent<touristSize>().SetOrderInLayer((int)m_tileIndex.x, (int)m_tileIndex.y);
         return touristSpawnGO;
     }
 
