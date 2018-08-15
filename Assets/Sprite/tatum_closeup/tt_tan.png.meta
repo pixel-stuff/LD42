@@ -1,0 +1,1349 @@
+fileFormatVersion: 2
+guid: 4bcc7fbcbe84f4a32af4d5f2a7296a3b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tt_tan
+    21300002: taning_00000
+    21300004: taning_00001
+    21300006: taning_00002
+    21300008: taning_00003
+    21300010: taning_00004
+    21300012: taning_00005
+    21300014: taning_00006
+    21300016: taning_00007
+    21300018: taning_00008
+    21300020: taning_00009
+    21300022: taning_00010
+    21300024: taning_00011
+    21300026: taning_00012
+    21300028: taning_00013
+    21300030: taning_00014
+    21300032: taning_00015
+    21300034: taning_00016
+    21300036: taning_00017
+    21300038: taning_00018
+    21300040: taning_00019
+    21300042: taning_00020
+    21300044: taning_00021
+    21300046: taning_00022
+    21300048: taning_00023
+    21300050: taning_00024
+    21300052: taning_00025
+    21300054: taning_00026
+    21300056: taning_00027
+    21300058: taning_00028
+    21300060: taning_00029
+    21300062: taning_00030
+    21300064: taning_00031
+    21300066: taning_00032
+    21300068: taning_00033
+    21300070: taning_00034
+    21300072: taning_00035
+    21300074: taning_00036
+    21300076: taning_00037
+    21300078: taning_00038
+    21300080: taning_00039
+    21300082: taning_00040
+    21300084: taning_00041
+    21300086: taning_00042
+    21300088: taning_00043
+    21300090: taning_00044
+    21300092: taning_00045
+    21300094: taning_00046
+    21300096: taning_00047
+    21300098: taning_00048
+    21300100: taning_00049
+    21300102: taning_00050
+    21300104: taning_00051
+    21300106: taning_00052
+    21300108: taning_00053
+    21300110: taning_00054
+    21300112: taning_00055
+    21300114: taning_00056
+    21300116: taning_00057
+    21300118: taning_00058
+    21300120: taning_00059
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: taning_00000
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 149
+        width: 195
+        height: 240
+      alignment: 9
+      pivot: {x: 0.50256413, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee98880e98d547fea183c7f1617ff14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00001
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 650
+        width: 195
+        height: 239
+      alignment: 9
+      pivot: {x: 0.50256413, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a1711d3c0de41b3b9da27d903564ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00002
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 128
+        width: 200
+        height: 239
+      alignment: 9
+      pivot: {x: 0.495, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cd7ab7641ad45f3b30bbdee02ae6bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1073
+        width: 215
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5534884, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9922c176a95cb403bb00f43da2915234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00004
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 127
+        width: 199
+        height: 240
+      alignment: 9
+      pivot: {x: 0.51758796, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e055e41ecc0b483ebdfa447b95099a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00005
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 597
+        width: 206
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5533981, y: 0.5975104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c719bbc2581f84098b5efcd064c0a914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00006
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 625
+        width: 195
+        height: 243
+      alignment: 9
+      pivot: {x: 0.52820516, y: 0.5925926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4306acdc24453793fbeb261aa0909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1315
+        width: 216
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125edc548bd034eebae049f72a2b9500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00008
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 182
+        width: 191
+        height: 233
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.6180258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333c7aa99578481d91e86833d9bdd94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1559
+        width: 217
+        height: 244
+      alignment: 9
+      pivot: {x: 0.50230414, y: 0.59016395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8a7eca3c5e24c5899b253138f8664e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1805
+        width: 219
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5022831, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3ced658c4f74950a77240d6b6d8231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 607
+        width: 217
+        height: 231
+      alignment: 9
+      pivot: {x: 0.50691247, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea008d0a2c394a8297d5ac3fca515be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00012
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 369
+        width: 211
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5165877, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2090b1980c9be413eae10ac1ff74d794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00013
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1315
+        width: 212
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cde71811bf5447dbfd08f49f6f14c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00014
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1572
+        width: 219
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5022831, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262e95f34c7794739b9ef192264aaa77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00015
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 849
+        width: 214
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5373832, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aa70893784146f7a9a52237e507b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00016
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1574
+        width: 208
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5576923, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d93ce5e5a8469eb13c9ecb2bb7d54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00017
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 658
+        width: 195
+        height: 231
+      alignment: 9
+      pivot: {x: 0.52820516, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47b4f2bcc7df4b63af46ab83602bda8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00018
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 417
+        width: 199
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5125628, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb14db21028fb4838800513f118ecd14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00019
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 409
+        width: 202
+        height: 231
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e6935a80aab497fb65723b4ff6ccfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00020
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 870
+        width: 207
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5024155, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5af6fa7ddbb47b6af2f23ea3cfacb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00021
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1123
+        width: 201
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b253e4b252aba4fde8cb27a56f4cf250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00022
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1123
+        width: 203
+        height: 231
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66e84629af6f42ec8d65f9565297cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00023
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1116
+        width: 207
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c567c93e460c4a578f63dcf170c4ff6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00024
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1354
+        width: 206
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49514562, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f8056bb7bbe4dec8dcc1f2a945efa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00025
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 383
+        width: 206
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49514562, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcfbe48155824d31b6c7c4680c4fc41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00026
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1103
+        width: 214
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31f024211fc445b99156703be274d15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00027
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1082
+        width: 222
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5225225, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95629de008be04c58a544c5da529d654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00028
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 141
+        width: 215
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5069767, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa2c588f5ff840d5a2a70f0a802fa65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 840
+        width: 223
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5156951, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d475d93a1ffff4f3bb6b847c46701585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00030
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 642
+        width: 197
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5025381, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa51503883ae4e6e88ce31f05795b5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00031
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 891
+        width: 191
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fe9d49a9ae645888bd5478aad55d04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00032
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 891
+        width: 202
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5cff703856b445cb23c8ac82ea70af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00033
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 883
+        width: 205
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5512195, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cee47d1ff354c4f8b4ef8d4ee61bf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00034
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 171
+        width: 196
+        height: 236
+      alignment: 9
+      pivot: {x: 0.53061223, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7af8903d22b4da7a4d02156e7f8529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 374
+        width: 217
+        height: 231
+      alignment: 9
+      pivot: {x: 0.50691247, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a118d87380d8f4c80bee1db999b5fb94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00036
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 391
+        width: 203
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f483dc3e7fd748d8934e2a3700f0a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00037
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1811
+        width: 214
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ba472f68b6e4fcb8bfa3893b71eb67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00038
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 891
+        width: 204
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e26143555c7a467eb941847db3e8569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00039
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1818
+        width: 202
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a94c22d717f403e93d3226c7e6f3d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00040
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1356
+        width: 202
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d19278527ddc4c8ba7e8d8dc523ab39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00041
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1336
+        width: 216
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5046296, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a789dd115d9443af8cd2b86ab49283f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00042
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 213
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5117371, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4c7c36e513e4b47bb61ce7f403f89a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00043
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1587
+        width: 201
+        height: 229
+      alignment: 9
+      pivot: {x: 0.54228854, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5566863f89f46c7b3381f7015b7900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00044
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1818
+        width: 201
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08190ae87529f47149a817cb4ea03a39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00045
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1123
+        width: 206
+        height: 229
+      alignment: 9
+      pivot: {x: 0.50970876, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a153bdd20f234187bdec84d4b0c71c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00046
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1356
+        width: 205
+        height: 229
+      alignment: 9
+      pivot: {x: 0.50731707, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b5c109e7aa6412eb208b1db159f8e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00047
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 842
+        width: 208
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.60504204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50cca8412bee462ca2b18cbd978bf83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00048
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 602
+        width: 208
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.60504204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7eb67cb06c844bcd823c5db68eb604a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00049
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1818
+        width: 208
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e87c7e8856b41cc89a7b61706bc93d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00050
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1349
+        width: 207
+        height: 236
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466bf0e4afebe43caa8d835ca5351332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00051
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1587
+        width: 207
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778f1821e5cc4434fabb2be95f64b732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00052
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1818
+        width: 207
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b5b5a2ea314935a19614ed6bdd3fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00053
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1818
+        width: 220
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5272727, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40c569b343434246b7f5223faeb8aa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00054
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1587
+        width: 214
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e2791353bb741d18517510eeef59b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00055
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1587
+        width: 203
+        height: 229
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8b4b4788d24c95ad644e1302403a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00056
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1356
+        width: 191
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905e77a8b4c7a4be2b0529f66733b66a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00057
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1587
+        width: 191
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3de8f4d1bc674e1baefd0a8b5dbfa8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00058
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 142
+        width: 198
+        height: 239
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85d33981fec64b1f8f83cd6bdd8e471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taning_00059
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 616
+        width: 210
+        height: 231
+      alignment: 9
+      pivot: {x: 0.53809524, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffc47295da6e430dbd5a1bf8f050b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 26fcc129c8cad482993abf055331618e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
