@@ -2,6 +2,7 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprite/closeup/tt_angry.tpsheet
 - Assets/Sprite/closeup/tt_idle.tpsheet
 - Assets/Sprite/closeup/tt_tan.tpsheet
 - Assets/Sprite/closeup/tt_transit_to_tan.tpsheet
@@ -9,6 +10,7 @@ tpsheetFileNames:
 - Assets/Sprite/tatum_closeup/tt_tan.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprite/closeup/tt_angry.png
 - Assets/Sprite/closeup/tt_idle.png
 - Assets/Sprite/closeup/tt_tan.png
 - Assets/Sprite/closeup/tt_transit_to_tan.png
@@ -16,6 +18,7 @@ textureFileNames:
 - Assets/Sprite/tatum_closeup/tt_tan.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
