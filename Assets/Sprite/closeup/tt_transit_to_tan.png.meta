@@ -1,0 +1,1348 @@
+fileFormatVersion: 2
+guid: 71c64d1f929fd4341bb0cd0275b48e8e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: transit_tan_xl_1
+    21300002: transit_tan_xl_2
+    21300004: transit_tan_xl_3
+    21300006: transit_tan_xl_4
+    21300008: transit_tan_xl_5
+    21300010: transit_tan_xl_6
+    21300012: transit_tan_xl_7
+    21300014: transit_tan_xl_8
+    21300016: transit_tan_xl_9
+    21300018: transit_tan_xl_10
+    21300020: transit_tan_xl_11
+    21300022: transit_tan_xl_12
+    21300024: transit_tan_xl_13
+    21300026: transit_tan_xl_14
+    21300028: transit_tan_xl_15
+    21300030: transit_tan_xl_16
+    21300032: transit_tan_xl_17
+    21300034: transit_tan_xl_18
+    21300036: transit_tan_xl_19
+    21300038: transit_tan_xl_20
+    21300040: transit_tan_xl_21
+    21300042: transit_tan_xl_22
+    21300044: transit_tan_xl_23
+    21300046: transit_tan_xl_24
+    21300048: transit_tan_xl_25
+    21300050: transit_tan_xl_26
+    21300052: transit_tan_xl_27
+    21300054: transit_tan_xl_28
+    21300056: transit_tan_xl_29
+    21300058: transit_tan_xl_30
+    21300060: transit_tan_xl_31
+    21300062: transit_tan_xl_32
+    21300064: transit_tan_xl_33
+    21300066: transit_tan_xl_34
+    21300068: transit_tan_xl_35
+    21300070: transit_tan_xl_36
+    21300072: transit_tan_xl_37
+    21300074: transit_tan_xl_38
+    21300076: transit_tan_xl_39
+    21300078: transit_tan_xl_40
+    21300080: transit_tan_xl_41
+    21300082: transit_tan_xl_42
+    21300084: transit_tan_xl_43
+    21300086: transit_tan_xl_44
+    21300088: transit_tan_xl_45
+    21300090: transit_tan_xl_46
+    21300092: transit_tan_xl_47
+    21300094: transit_tan_xl_48
+    21300096: transit_tan_xl_49
+    21300098: transit_tan_xl_50
+    21300100: transit_tan_xl_51
+    21300102: transit_tan_xl_52
+    21300104: transit_tan_xl_53
+    21300106: transit_tan_xl_54
+    21300108: transit_tan_xl_55
+    21300110: transit_tan_xl_56
+    21300112: transit_tan_xl_57
+    21300114: transit_tan_xl_58
+    21300116: transit_tan_xl_59
+    21300118: transit_tan_xl_60
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transit_tan_xl_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1359
+        width: 179
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5083799, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c481c957d6684c77ac5f5ea9bd6991b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1125
+        width: 208
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f667beb024f842cba0df065e6f20b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1359
+        width: 273
+        height: 230
+      alignment: 9
+      pivot: {x: 0.50183153, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80d1303e983e4d1792e4d206a591c7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_4
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1359
+        width: 291
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5051546, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b733c43d1f32647fb87d3a4ceb697b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_5
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1358
+        width: 312
+        height: 230
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d76e10627a0431ab1d66525f80c6a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_6
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1357
+        width: 312
+        height: 230
+      alignment: 9
+      pivot: {x: 0.51602566, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235ad5ee1d8a6441a893fb414048258d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 659
+        width: 329
+        height: 232
+      alignment: 9
+      pivot: {x: 0.52279633, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404b36db8964e49b2b13f33196502b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_8
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 658
+        width: 326
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5030675, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e331320c8a242d1bb42eaa1142f05f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_9
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 892
+        width: 324
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5154321, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c13bc4b1ce54b80948717466995ab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1126
+        width: 340
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795a6af9db171430290a3e74b20e58b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_11
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1126
+        width: 333
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5045045, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180afa3d0364f4276bc6be15e87b6a04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 335
+        height: 234
+      alignment: 9
+      pivot: {x: 0.519403, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d68b91f5774cfa80c11a8dd47d3a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_13
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1126
+        width: 323
+        height: 231
+      alignment: 9
+      pivot: {x: 0.504644, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2ca9f3b4744480e9c1928d5bef77e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_14
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 179
+        width: 310
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5975104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e58709a6893d4d9fbc84356ca3cb79e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_15
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 175
+        width: 316
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e46186abac8453b8d6e61ab45c4dff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 423
+        width: 329
+        height: 234
+      alignment: 9
+      pivot: {x: 0.50759876, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41876a845552450a83da2cd3015f5b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_17
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 422
+        width: 325
+        height: 234
+      alignment: 9
+      pivot: {x: 0.51076925, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4d83a89d2d74a5dabd1ff89a704252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_18
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 419
+        width: 313
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5111821, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881eae42040224f7c8aa910072d25af7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_19
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 419
+        width: 302
+        height: 234
+      alignment: 9
+      pivot: {x: 0.51986754, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0623aae4d26ef4d68ae545f7f6671ebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_20
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 890
+        width: 300
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5233333, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83acd3ad159054cac9b066377aa933dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_21
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1124
+        width: 296
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5168919, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dc3b57133c04325b17d868dc1fe330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_22
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1124
+        width: 285
+        height: 231
+      alignment: 9
+      pivot: {x: 0.50526315, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e4691b8328e4c849680be94dbddb8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_23
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 423
+        width: 268
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290dc57121a5b405b95507197b9a3961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_24
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 655
+        width: 256
+        height: 233
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.6180258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb16e89902f92482fb411e2a96ffd455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 187
+        width: 262
+        height: 234
+      alignment: 9
+      pivot: {x: 0.4923664, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef08bcf844ff44649ffa1548604ea54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_26
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1359
+        width: 257
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49416342, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f077f1e58074dc69869f124d6e2ab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_27
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1590
+        width: 253
+        height: 228
+      alignment: 9
+      pivot: {x: 0.486166, y: 0.6315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d747bdfba8a4218ac32987b8e32ebb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_28
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 187
+        width: 249
+        height: 234
+      alignment: 9
+      pivot: {x: 0.48594376, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047df35439b1c4bb8bc2d040c7d5146c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_29
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1589
+        width: 251
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5059761, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0710b434e7b4afc81639725f4a6b80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1820
+        width: 234
+        height: 227
+      alignment: 9
+      pivot: {x: 0.50427353, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7905199221054d0fb05b3d6a58a8f45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_31
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 186
+        width: 235
+        height: 235
+      alignment: 9
+      pivot: {x: 0.5276596, y: 0.61276597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888e442f5f1be4401872dac8239d47ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_32
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1820
+        width: 242
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc902515c5929498989eb71f3f966e3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_33
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1820
+        width: 235
+        height: 227
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac00167f21bf144c3b0ff08fc8e65dd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_34
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 655
+        width: 231
+        height: 233
+      alignment: 9
+      pivot: {x: 0.4978355, y: 0.6180258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb9d3f97034d4cdf808b26a2bb3dcf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1360
+        width: 227
+        height: 229
+      alignment: 9
+      pivot: {x: 0.50660795, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad27452bae2c44ca944b507efb61ea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_36
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1820
+        width: 211
+        height: 227
+      alignment: 9
+      pivot: {x: 0.53554505, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d307ab87acb91499b8521679a6a155e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_37
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1820
+        width: 206
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5048544, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f010c7e36a065493e96099ff9a2ebadf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_38
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 893
+        width: 221
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49773756, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958f4300aa2434ba7a486913cebd9826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_39
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 890
+        width: 219
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5022831, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b9780fb1abe42ab8cfec9bc210cbfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 659
+        width: 205
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5365854, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6b17836b8a445279c53965445ce3ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_41
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 893
+        width: 219
+        height: 231
+      alignment: 9
+      pivot: {x: 0.51598173, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ca69bb4ff214667b4503e9f848eec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_42
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 893
+        width: 225
+        height: 231
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4366d520e074a447fbe960983a8f2d24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_43
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 893
+        width: 221
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5339367, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93269c7bcfc7d415db520d7fc3810cc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_44
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1820
+        width: 198
+        height: 227
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fd3d589e07e4780a815724e9012134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_45
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1590
+        width: 204
+        height: 228
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.6315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65e4c0d26f084f27becda094584cf3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_46
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1820
+        width: 213
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49295774, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5ac0ce301ab474081d4359fb555ab7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_47
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1820
+        width: 208
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5144231, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dc65091f64b4bc09fe441ec3a9cc26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_48
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1820
+        width: 198
+        height: 227
+      alignment: 9
+      pivot: {x: 0.53535354, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96477b52cd15e4ba1afaf88c638a9bd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1591
+        width: 209
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf3a5df37d83470ab364d6bf2d09fb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_50
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 655
+        width: 221
+        height: 233
+      alignment: 9
+      pivot: {x: 0.520362, y: 0.6180258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4f48a606ca64126ad60358aee88c63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_51
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1591
+        width: 207
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226b6944798194fc1aac3aae75358682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_52
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1591
+        width: 207
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419820fa05c6644ed88ef8bf2bcce800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_53
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1591
+        width: 207
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714727993ae8f466dbc39b75db01fb13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_54
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1591
+        width: 220
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5272727, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0712b97127e142148d19906eb0b3f38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_55
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1591
+        width: 214
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.6343612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d024087be6ce41d49bcbe8191f656c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 895
+        width: 202
+        height: 231
+      alignment: 9
+      pivot: {x: 0.48514852, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a585d3f381f435cae900d1fb476a0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 659
+        width: 203
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6104b3f3a8b0541ec9986a87ec703805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_58
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 659
+        width: 204
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09496fa785fab43c692d67cb1e8a56da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_59
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 182
+        width: 195
+        height: 238
+      alignment: 9
+      pivot: {x: 0.50256413, y: 0.60504204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516971599e5554f1180b10637bc641d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transit_tan_xl_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1128
+        width: 210
+        height: 230
+      alignment: 9
+      pivot: {x: 0.53809524, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdc4c5b460d849448c5720a64804aaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6a5f1c249cbdf4d49a3c289e96bae537
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

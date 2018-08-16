@@ -1,0 +1,1349 @@
+fileFormatVersion: 2
+guid: 2de36b76c53b8400591539846a33cff9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tt_tan
+    21300002: tan_xl_1
+    21300004: tan_xl_2
+    21300006: tan_xl_3
+    21300008: tan_xl_4
+    21300010: tan_xl_5
+    21300012: tan_xl_6
+    21300014: tan_xl_7
+    21300016: tan_xl_8
+    21300018: tan_xl_9
+    21300020: tan_xl_10
+    21300022: tan_xl_11
+    21300024: tan_xl_12
+    21300026: tan_xl_13
+    21300028: tan_xl_14
+    21300030: tan_xl_15
+    21300032: tan_xl_16
+    21300034: tan_xl_17
+    21300036: tan_xl_18
+    21300038: tan_xl_19
+    21300040: tan_xl_20
+    21300042: tan_xl_21
+    21300044: tan_xl_22
+    21300046: tan_xl_23
+    21300048: tan_xl_24
+    21300050: tan_xl_25
+    21300052: tan_xl_26
+    21300054: tan_xl_27
+    21300056: tan_xl_28
+    21300058: tan_xl_29
+    21300060: tan_xl_30
+    21300062: tan_xl_31
+    21300064: tan_xl_32
+    21300066: tan_xl_33
+    21300068: tan_xl_34
+    21300070: tan_xl_35
+    21300072: tan_xl_36
+    21300074: tan_xl_37
+    21300076: tan_xl_38
+    21300078: tan_xl_39
+    21300080: tan_xl_40
+    21300082: tan_xl_41
+    21300084: tan_xl_42
+    21300086: tan_xl_43
+    21300088: tan_xl_44
+    21300090: tan_xl_45
+    21300092: tan_xl_46
+    21300094: tan_xl_47
+    21300096: tan_xl_48
+    21300098: tan_xl_49
+    21300100: tan_xl_50
+    21300102: tan_xl_51
+    21300104: tan_xl_52
+    21300106: tan_xl_53
+    21300108: tan_xl_54
+    21300110: tan_xl_55
+    21300112: tan_xl_56
+    21300114: tan_xl_57
+    21300116: tan_xl_58
+    21300118: tan_xl_59
+    21300120: tan_xl_60
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tan_xl_1
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 149
+        width: 195
+        height: 240
+      alignment: 9
+      pivot: {x: 0.50256413, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387b48d19733948a98b61b40e3dfc76c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_2
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 650
+        width: 195
+        height: 239
+      alignment: 9
+      pivot: {x: 0.50256413, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98324ae91e78b48df81763028858d34f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 128
+        width: 200
+        height: 239
+      alignment: 9
+      pivot: {x: 0.495, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ce1ef2d3a874a138b5dd09318a2239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1073
+        width: 215
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5534884, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f70bda3ce6534306a20c7014845b813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_5
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 127
+        width: 199
+        height: 240
+      alignment: 9
+      pivot: {x: 0.51758796, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb7ee255186e409d828d78590c5a1ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 597
+        width: 206
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5533981, y: 0.5975104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b803dfdce72c47368937540eb26a845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_7
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 625
+        width: 195
+        height: 243
+      alignment: 9
+      pivot: {x: 0.52820516, y: 0.5925926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21e26c3610ac49638db7e38a8a15ab9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1315
+        width: 216
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1671d0b94dede41d39c069ca754648dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_9
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 182
+        width: 191
+        height: 233
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.6180258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81468c0671ff45d9a4a90090aca6c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1559
+        width: 217
+        height: 244
+      alignment: 9
+      pivot: {x: 0.50230414, y: 0.59016395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370729ac0ef9c411db5ce96b7ace831d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1805
+        width: 219
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5022831, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2f8ee7a9b314556952baf50b7cecb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 607
+        width: 217
+        height: 231
+      alignment: 9
+      pivot: {x: 0.50691247, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa33182479184e0fab22615524260c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_13
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 369
+        width: 211
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5165877, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997899efbad2946838304aa65ce80406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1315
+        width: 212
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635644d7c9ee94c51b671c60caee0b9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_15
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1572
+        width: 219
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5022831, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaef368cf31d840039e07b4ed06da1a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 849
+        width: 214
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5373832, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be477c8db1ca48b1a0361c2b0a18800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_17
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1574
+        width: 208
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5576923, y: 0.59504133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd465e40cf5f4b97a9a773c98baedf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_18
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 658
+        width: 195
+        height: 231
+      alignment: 9
+      pivot: {x: 0.52820516, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa50fd7b9cb54df9abd5888f8421bf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_19
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 417
+        width: 199
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5125628, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb34c08dac5a4bd494347a9e029b882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_20
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 409
+        width: 202
+        height: 231
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3141415d06d44e5938e70e2dfa3d68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 870
+        width: 207
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5024155, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db04242b517cf4ae2ad85b3c15c28f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1123
+        width: 201
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d4d1fc7d56d4a0caee7ae9b846a47a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_23
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1123
+        width: 203
+        height: 231
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d53c351ff9a4cf2bc8b7bbd8ce22a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_24
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1116
+        width: 207
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184a57bc857c94fc9a56462674740a41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_25
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1354
+        width: 206
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49514562, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe61c6fe6994243e5add60d1d855dbd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_26
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 383
+        width: 206
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49514562, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1dccdfed25d449695743b072745dc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1103
+        width: 214
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45373b476ad14a9eadd8a66a22f87c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1082
+        width: 222
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5225225, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2308b85409b4b9e887bbd1149c6b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 141
+        width: 215
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5069767, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0296879f69d034b84b82accb1209e03e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 840
+        width: 223
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5156951, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d559516171e9f430e85f120b2e15b131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_31
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 642
+        width: 197
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5025381, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2984a51c5744ef19a4809eab8935f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_32
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 891
+        width: 191
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6a9eaaafd1e4a8392cb82dec7b8303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_33
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 891
+        width: 202
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5cc143783554f7ea763df04af997b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_34
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 883
+        width: 205
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5512195, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace1c888ce6424cddb82883203ecaefa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_35
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 171
+        width: 196
+        height: 236
+      alignment: 9
+      pivot: {x: 0.53061223, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f3c56e90d6a4e918447b867dd6dfda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 374
+        width: 217
+        height: 231
+      alignment: 9
+      pivot: {x: 0.50691247, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a82994fbf4014a64bd4e358f0f60855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_37
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 391
+        width: 203
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.62068963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc5cfb10703a4c5d95b8ca61c0030c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1811
+        width: 214
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b5863069f3e445abb5d7b5ee3209b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_39
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 891
+        width: 204
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.62608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c076ddce1174e1191538f80ae041a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_40
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1818
+        width: 202
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e329c7fce51404cd3b190c6eedd0acdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_41
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1356
+        width: 202
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fb7c7094bbd48b483b454d253a0a84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_42
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1336
+        width: 216
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5046296, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7650b949c5d4f4eb0125bda470f4fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 213
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5117371, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e64671529af4af7a4f098c680c338b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_44
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1587
+        width: 201
+        height: 229
+      alignment: 9
+      pivot: {x: 0.54228854, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf7e931cc6b54baf8a6e7c03af86805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_45
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1818
+        width: 201
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3b89620257640aa9a50b186901e227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_46
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1123
+        width: 206
+        height: 229
+      alignment: 9
+      pivot: {x: 0.50970876, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96574c5d9239469285e4f25a959ab4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_47
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1356
+        width: 205
+        height: 229
+      alignment: 9
+      pivot: {x: 0.50731707, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67906f9069616472aab4e83f080ad048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 842
+        width: 208
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.60504204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea101ac120c3740c096daa59be000804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_49
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 602
+        width: 208
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.60504204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75503132273b44d0caabada0ab3118fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_50
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1818
+        width: 208
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f49465fc5de44697bc38c5377ccbfa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_51
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1349
+        width: 207
+        height: 236
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8012fe257a94f09bfd9c1b487bab73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_52
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1587
+        width: 207
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc920500361c2424aa39ef0c22433ff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_53
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1818
+        width: 207
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49758455, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90cba3383a26434e87c7e9664b775ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_54
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1818
+        width: 220
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5272727, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d33f4f867e74843a5a2d4e3bba860a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_55
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1587
+        width: 214
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e758c6b368be745fab62a49b85bdc778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_56
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1587
+        width: 203
+        height: 229
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eb288d541384fc69464ed21875d942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_57
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1356
+        width: 191
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b2bdee51f1413795b1b97575bb69d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_58
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1587
+        width: 191
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5183246, y: 0.62882096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691d33030d052471184b1292ce495fc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_59
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 142
+        width: 198
+        height: 239
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.60251045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78af916e82ee3410f813567977697f94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tan_xl_60
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 616
+        width: 210
+        height: 231
+      alignment: 9
+      pivot: {x: 0.53809524, y: 0.6233766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7a9ee2e78b6416e9f3bbe4c4dd6d96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c2f0726708f3040b79f4a683ce9fb56a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
