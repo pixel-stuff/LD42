@@ -5829,6 +5829,21 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114087842392738426, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: SpawnEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4683111941085986, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5865,7 +5880,7 @@ Prefab:
         type: 2}
       propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1101446367}
+      objectReference: {fileID: 1190302218}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5906,6 +5921,106 @@ Prefab:
       propertyPath: BreakText
       value: 
       objectReference: {fileID: 1010322580}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1956398892}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: SunGrowth
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114087842392738426, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: SpawnEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114087842392738426, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: SpawnEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
   m_IsPrefabAsset: 0
@@ -6496,12 +6611,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1101446367 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114965254492217432, guid: 0bcbbe1476254cd449f2d7976c152d87,
-    type: 2}
-  m_PrefabInternal: {fileID: 527481845}
-  m_Script: {fileID: 11500000, guid: fcc3168fe16277c4faa8875d1a8ec47c, type: 3}
 --- !u!1 &1161650840
 GameObject:
   m_ObjectHideFlags: 0
@@ -6746,6 +6855,11 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1183100848}
   m_CullTransparentMesh: 0
+--- !u!1 &1190302218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1590994723542692, guid: 0bcbbe1476254cd449f2d7976c152d87,
+    type: 2}
+  m_PrefabInternal: {fileID: 527481845}
 --- !u!1 &1205427193
 GameObject:
   m_ObjectHideFlags: 0
