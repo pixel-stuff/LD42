@@ -44,6 +44,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: UI
+    uniqueID: 1558064617
+    locked: 0
   - name: water
     uniqueID: 2419730963
     locked: 0
