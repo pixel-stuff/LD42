@@ -193,7 +193,7 @@ Animation:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1328369594579416}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 3ee5de6c123954793a7d4f4e2e3afcf7, type: 2}
   m_Animations: []
@@ -234,12 +234,12 @@ MonoBehaviour:
   - {x: 0, y: 2}
   - {x: 1, y: 2}
   ReservedTileIndex:
-  - {x: 4, y: 4}
-  - {x: 5, y: 4}
-  - {x: 4, y: 5}
-  - {x: 5, y: 5}
-  - {x: 4, y: 6}
-  - {x: 5, y: 6}
+  - {x: 0, y: 6}
+  - {x: 1, y: 6}
+  - {x: 0, y: 7}
+  - {x: 1, y: 7}
+  - {x: 0, y: 8}
+  - {x: 1, y: 8}
   tileOffset: {x: 0.5, y: 1}
   BreakDownValue: 18
   GameOverSceneName: GameOverScene
@@ -339,7 +339,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3e3cec899d151fc4eac17137ce4b6f94, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

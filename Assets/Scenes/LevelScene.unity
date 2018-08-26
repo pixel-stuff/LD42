@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.496413, b: 0.5748175, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -347,37 +347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 1230938160}
-  m_BoneTransforms:
-  - {fileID: 1230938160}
-  - {fileID: 522295870}
-  - {fileID: 1747923726}
-  - {fileID: 218269019}
-  - {fileID: 120205431}
-  - {fileID: 1192627705}
-  - {fileID: 1144274825}
-  - {fileID: 1763473359}
-  - {fileID: 1878389046}
-  - {fileID: 1413149550}
-  - {fileID: 239364134}
-  - {fileID: 1166572786}
-  - {fileID: 810640548}
-  - {fileID: 1884638783}
-  - {fileID: 685538159}
-  - {fileID: 239034987}
-  - {fileID: 2122827880}
-  - {fileID: 433598763}
-  - {fileID: 1336749343}
-  - {fileID: 2141322529}
-  - {fileID: 682222133}
-  - {fileID: 1918144248}
-  - {fileID: 1029815226}
-  - {fileID: 2029385045}
-  - {fileID: 856503645}
-  - {fileID: 859801787}
-  - {fileID: 1427249268}
-  - {fileID: 866063773}
-  - {fileID: 1988024729}
-  - {fileID: 1388745131}
+  m_BoneTransforms: []
 --- !u!95 &40665342
 Animator:
   serializedVersion: 3
@@ -2147,37 +2117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 13117188}
-  m_BoneTransforms:
-  - {fileID: 13117188}
-  - {fileID: 854908663}
-  - {fileID: 1544781463}
-  - {fileID: 1983651832}
-  - {fileID: 931176923}
-  - {fileID: 932917841}
-  - {fileID: 383224397}
-  - {fileID: 1842713865}
-  - {fileID: 1160296056}
-  - {fileID: 292287264}
-  - {fileID: 233995704}
-  - {fileID: 2073697472}
-  - {fileID: 1216023102}
-  - {fileID: 1378527287}
-  - {fileID: 194338578}
-  - {fileID: 267008145}
-  - {fileID: 648471097}
-  - {fileID: 1797314821}
-  - {fileID: 1076394971}
-  - {fileID: 1095316049}
-  - {fileID: 1432732566}
-  - {fileID: 508345924}
-  - {fileID: 1260649122}
-  - {fileID: 1750440320}
-  - {fileID: 1858676101}
-  - {fileID: 1349506060}
-  - {fileID: 773902005}
-  - {fileID: 1257153358}
-  - {fileID: 267977793}
-  - {fileID: 1326936093}
+  m_BoneTransforms: []
 --- !u!95 &379409229
 Animator:
   serializedVersion: 3
@@ -13082,37 +13022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 1455767205}
-  m_BoneTransforms:
-  - {fileID: 1455767205}
-  - {fileID: 1899898807}
-  - {fileID: 234359289}
-  - {fileID: 929797778}
-  - {fileID: 503786351}
-  - {fileID: 1972446581}
-  - {fileID: 2057834549}
-  - {fileID: 1470090069}
-  - {fileID: 1440204102}
-  - {fileID: 1033262090}
-  - {fileID: 163875801}
-  - {fileID: 1232696950}
-  - {fileID: 1897080658}
-  - {fileID: 291807298}
-  - {fileID: 1861603596}
-  - {fileID: 1258177948}
-  - {fileID: 1401315887}
-  - {fileID: 184459783}
-  - {fileID: 1190943358}
-  - {fileID: 289477658}
-  - {fileID: 2003159176}
-  - {fileID: 1002372619}
-  - {fileID: 1021142779}
-  - {fileID: 1858142307}
-  - {fileID: 1184978637}
-  - {fileID: 1077472129}
-  - {fileID: 2124782966}
-  - {fileID: 2004608637}
-  - {fileID: 1661776498}
-  - {fileID: 976257660}
+  m_BoneTransforms: []
 --- !u!1 &773902004
 GameObject:
   m_ObjectHideFlags: 0
@@ -13255,7 +13165,7 @@ Prefab:
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4683111941085986, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
       propertyPath: m_LocalPosition.x
@@ -13293,7 +13203,7 @@ Prefab:
         type: 2}
       propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1190302218}
+      objectReference: {fileID: 1190302219}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13392,12 +13302,12 @@ Prefab:
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: ChangeValue
       objectReference: {fileID: 0}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
       propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
         type: 2}
@@ -13433,6 +13343,31 @@ Prefab:
         type: 2}
       propertyPath: TanApply.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1190302219}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: ChangeValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697952337184266, guid: 016cd21f47a18ad408280d60fed0d65a,
+        type: 2}
+      propertyPath: TanApplyButNoBreakDown.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 016cd21f47a18ad408280d60fed0d65a, type: 2}
@@ -15206,37 +15141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 429828621}
-  m_BoneTransforms:
-  - {fileID: 429828621}
-  - {fileID: 688577264}
-  - {fileID: 2060940624}
-  - {fileID: 561670925}
-  - {fileID: 1391216916}
-  - {fileID: 939302469}
-  - {fileID: 1746299905}
-  - {fileID: 1045018000}
-  - {fileID: 1263911949}
-  - {fileID: 1994729997}
-  - {fileID: 2096455570}
-  - {fileID: 1675805033}
-  - {fileID: 505701682}
-  - {fileID: 1641900276}
-  - {fileID: 1486418448}
-  - {fileID: 27231378}
-  - {fileID: 817494015}
-  - {fileID: 1049685395}
-  - {fileID: 232427670}
-  - {fileID: 671298203}
-  - {fileID: 385030789}
-  - {fileID: 890297642}
-  - {fileID: 380005189}
-  - {fileID: 1148146741}
-  - {fileID: 1154281871}
-  - {fileID: 1822024089}
-  - {fileID: 465118290}
-  - {fileID: 865498814}
-  - {fileID: 2126174454}
-  - {fileID: 77494592}
+  m_BoneTransforms: []
 --- !u!95 &1163770703
 Animator:
   serializedVersion: 3
@@ -15542,11 +15447,12 @@ Transform:
   m_Father: {fileID: 1190943358}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1190302218 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1590994723542692, guid: 0bcbbe1476254cd449f2d7976c152d87,
+--- !u!114 &1190302219 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114965254492217432, guid: 0bcbbe1476254cd449f2d7976c152d87,
     type: 2}
   m_PrefabInternal: {fileID: 527481845}
+  m_Script: {fileID: 11500000, guid: fcc3168fe16277c4faa8875d1a8ec47c, type: 3}
 --- !u!1 &1190943357
 GameObject:
   m_ObjectHideFlags: 0
@@ -16041,37 +15947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 1869184693}
-  m_BoneTransforms:
-  - {fileID: 1869184693}
-  - {fileID: 1537309537}
-  - {fileID: 1063130511}
-  - {fileID: 367460244}
-  - {fileID: 1743418051}
-  - {fileID: 38591208}
-  - {fileID: 184824524}
-  - {fileID: 1438971716}
-  - {fileID: 467653512}
-  - {fileID: 65315681}
-  - {fileID: 1912077754}
-  - {fileID: 1641302200}
-  - {fileID: 453372553}
-  - {fileID: 1439729425}
-  - {fileID: 1023838437}
-  - {fileID: 1303414107}
-  - {fileID: 849713835}
-  - {fileID: 1429317940}
-  - {fileID: 639799595}
-  - {fileID: 712174868}
-  - {fileID: 1951750498}
-  - {fileID: 1407071554}
-  - {fileID: 1787158265}
-  - {fileID: 1730727742}
-  - {fileID: 972200301}
-  - {fileID: 1800306745}
-  - {fileID: 1451432654}
-  - {fileID: 401103707}
-  - {fileID: 1274388893}
-  - {fileID: 1253840640}
+  m_BoneTransforms: []
 --- !u!95 &1305546416
 Animator:
   serializedVersion: 3
@@ -16368,37 +16244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 1533158132}
-  m_BoneTransforms:
-  - {fileID: 1533158132}
-  - {fileID: 347280465}
-  - {fileID: 2121307440}
-  - {fileID: 1690162448}
-  - {fileID: 487215776}
-  - {fileID: 1712424711}
-  - {fileID: 1770941245}
-  - {fileID: 836309756}
-  - {fileID: 103786979}
-  - {fileID: 2041952954}
-  - {fileID: 875377534}
-  - {fileID: 2125732485}
-  - {fileID: 673279039}
-  - {fileID: 901989080}
-  - {fileID: 1385931131}
-  - {fileID: 610194325}
-  - {fileID: 1788048530}
-  - {fileID: 1574423965}
-  - {fileID: 2063870340}
-  - {fileID: 1523660002}
-  - {fileID: 9113741}
-  - {fileID: 1427640923}
-  - {fileID: 164356890}
-  - {fileID: 130397399}
-  - {fileID: 1115180247}
-  - {fileID: 478459955}
-  - {fileID: 362039975}
-  - {fileID: 60680732}
-  - {fileID: 595755196}
-  - {fileID: 123422232}
+  m_BoneTransforms: []
 --- !u!95 &1367183680
 Animator:
   serializedVersion: 3
